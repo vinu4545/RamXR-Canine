@@ -9,11 +9,17 @@ EditorBuildSettings:
     path: Assets/Scenes/StartScene.unity
     guid: 4baf2dff9fdb5b24ead423e8144c035e
   - enabled: 1
-    path: Assets/Scenes/Dog/Muscle.unity
-    guid: 19fdf88e9220a0c4287371bfc35912f1
-  - enabled: 1
     path: Assets/Scenes/Dog/Skeleton.unity
     guid: c2fc26d6de380dc42830e8157ce2302d
+  - enabled: 1
+    path: Assets/Scenes/Dog/Testing.unity
+    guid: 71301f42be4e0fa4bb22e8f1ed5b9eab
+  - enabled: 1
+    path: Assets/Scenes/Dog/Nerves.unity
+    guid: 35451f696dd119843ad6025d22ecb677
+  - enabled: 1
+    path: Assets/Scenes/Dog/Muscle.unity
+    guid: 19fdf88e9220a0c4287371bfc35912f1
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: bfa1182bd221b4ca89619141f66f1260, type: 2}
     Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: dc5a169419fa04987b057f65238cf3ba, type: 2}

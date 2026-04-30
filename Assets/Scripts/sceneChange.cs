@@ -1,37 +1,29 @@
 using UnityEngine;
-using UnityEngine.SceneManagement; // Allows us to switch scenes
+using UnityEngine.SceneManagement;
 
 public class sceneChange : MonoBehaviour
 {
-    // Function to load the Skeleton Scene
+    // Matches "Scenes/Dog/Skeleton"
     public void LoadSkeletonScene()
     {
-        SceneManager.LoadScene("SkeletonScene");
+        SceneManager.LoadScene("Skeleton"); 
     }
 
-    // Function to return to the Main Menu
-  
-
-    // Function to load the Muscles Scene
-    public void LoadmuscleScene()
+    // Matches "Scenes/Dog/Muscle"
+    public void LoadmusclesScene()
     {
-        SceneManager.LoadScene("Muscle");
+        SceneManager.LoadScene("Muscle"); 
     }
 
-    // Function to load the Organs Scene
-    public void LoadorgansScene()
+    // Matches "Scenes/Dog/Testing"
+    public void LoadMainMenuScene()
     {
-        SceneManager.LoadScene("OrgansScene");
-    }
-
-    // Function to load the Nervous System Scene
-    public void LoadnervousScene()
-    {
-        SceneManager.LoadScene("NervousScene");
-    }
-      public void LoadMainMenuScene()
-    {
-        // Make sure "Testing" is the exact name of your main scene
         SceneManager.LoadScene("Testing");
+    }
+
+
+ public void LoadNervesScene()
+    {
+        SceneManager.LoadScene("Nerves"); 
     }
 }
