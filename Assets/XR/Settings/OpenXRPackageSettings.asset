@@ -105,6 +105,7 @@ MonoBehaviour:
   m_Name: DetachedMetaQuestTouchProControllerProfile Android
   m_EditorClassIdentifier: Oculus.VR::Meta.XR.DetachedMetaQuestTouchProControllerProfile
   m_enabled: 0
+  <failedInitialization>k__BackingField: 0
   nameUi: Detached Meta Quest Touch Pro Controller Profile
   version: 0.0.1
   featureIdInternal: com.meta.openxr.feature.input.metaquestpro.detached
@@ -635,9 +636,6 @@ MonoBehaviour:
   - {fileID: 5153017048313567732}
   - {fileID: 6481653220666705815}
   - {fileID: 7393116930172532905}
-  - {fileID: -2361463288540127603}
-  - {fileID: -992273340905575983}
-  - {fileID: 9114972050552492868}
   - {fileID: 744375598501864353}
   - {fileID: 7823178000869280136}
   - {fileID: 3344995148386438684}
@@ -991,6 +989,7 @@ MonoBehaviour:
   m_Name: DetachedMetaQuestTouchPlusControllerProfile Standalone
   m_EditorClassIdentifier: Oculus.VR::Meta.XR.DetachedMetaQuestTouchPlusControllerProfile
   m_enabled: 0
+  <failedInitialization>k__BackingField: 0
   nameUi: Detached Meta Quest Touch Plus Controller Profile
   version: 0.0.1
   featureIdInternal: com.meta.openxr.feature.input.metaquestplus.detached
@@ -1087,7 +1086,7 @@ MonoBehaviour:
   nameUi: Meta XR Feature
   version: 0.0.1
   featureIdInternal: com.meta.openxr.feature.metaxr
-  openxrExtensionStrings: XR_KHR_vulkan_enable XR_KHR_D3D11_enable XR_OCULUS_common_reference_spaces
+  openxrExtensionStrings: 'XR_KHR_vulkan_enable XR_KHR_D3D11_enable XR_OCULUS_common_reference_spaces
     XR_FB_display_refresh_rate XR_EXT_performance_settings XR_FB_composition_layer_image_layout
     XR_KHR_android_surface_swapchain XR_FB_android_surface_swapchain_create XR_KHR_composition_layer_color_scale_bias
     XR_FB_color_space XR_EXT_hand_tracking XR_FB_swapchain_update_state XR_FB_swapchain_update_state_opengl_es
@@ -1113,15 +1112,12 @@ MonoBehaviour:
     XR_META_dynamic_object_keyboard XR_META_hand_tracking_microgestures XR_META_spatial_entity_persistence
     XR_META_spatial_entity_discovery XR_META_spatial_entity_room_mesh XR_META_boundary_visibility
     XR_META_face_tracking_visemes XR_META_headset_id XR_FB_composition_layer_settings
-    XR_META_automatic_layer_filter XR_FB_composition_layer_secure_content XR_METAX1_spatial_entity_marker
-    XR_EXT_spatial_entity XR_EXT_spatial_marker_tracking XR_META_environment_raycast
-    XR_EXT_future XR_METAX2_debug_utils_region_profiling XR_METAX3_debug_utils_region_profiling
-    XR_EXTX2_stationary_reference_space XR_META_recommended_layer_resolution XR_EXT_local_floor
-    XR_METAX1_passthrough_camera_data XR_METAX1_hand_tracking_frequency_hint XR_METAX1_hand_tracking_unextrapolated_poses
-    XR_METAX1_hand_tracking_wide_motion_mode2
+    XR_META_automatic_layer_filter XR_METAX1_spatial_entity_marker XR_EXT_spatial_entity
+    XR_EXT_spatial_marker_tracking XR_META_environment_raycast XR_EXT_future XR_EXTX2_stationary_reference_space
+    XR_META_recommended_layer_resolution XR_EXT_local_floor '
   company: Meta
   priority: 0
-  targetOpenXRApiVersion: 1.1.45
+  targetOpenXRApiVersion: 
   required: 0
   customRuntimeLoaderName: 
 --- !u!114 &-1546569832583360756
@@ -1249,6 +1245,7 @@ MonoBehaviour:
   m_Name: DetachedMetaQuestTouchProControllerProfile Standalone
   m_EditorClassIdentifier: Oculus.VR::Meta.XR.DetachedMetaQuestTouchProControllerProfile
   m_enabled: 0
+  <failedInitialization>k__BackingField: 0
   nameUi: Detached Meta Quest Touch Pro Controller Profile
   version: 0.0.1
   featureIdInternal: com.meta.openxr.feature.input.metaquestpro.detached
@@ -1385,8 +1382,8 @@ MonoBehaviour:
   features:
   - {fileID: 7011443450567333355}
   - {fileID: -671281728444007487}
-  - {fileID: -901939997048047619}
-  - {fileID: -6201227470334224964}
+  - {fileID: -5098815686286224484}
+  - {fileID: 7892318719737419304}
   - {fileID: 8980318060753866109}
   - {fileID: -6559185765804338520}
   - {fileID: -4756202077021157709}
@@ -1397,14 +1394,11 @@ MonoBehaviour:
   - {fileID: 348827886137839178}
   - {fileID: -7499073031166464939}
   - {fileID: 7666556398442971420}
-  - {fileID: -3942145912818374578}
+  - {fileID: -7343570946846779558}
   - {fileID: -1256587969539669027}
   - {fileID: -7336576652291064949}
   - {fileID: -4363231183632145407}
   - {fileID: -1214223305509136874}
-  - {fileID: 1211155662754711237}
-  - {fileID: -8102473923832397593}
-  - {fileID: 7337976401034769969}
   - {fileID: 7024391430695218602}
   - {fileID: 1857945761630378259}
   - {fileID: 4863518650473298676}
@@ -1785,6 +1779,7 @@ MonoBehaviour:
   m_Name: DetachedMetaQuestTouchPlusControllerProfile Android
   m_EditorClassIdentifier: Oculus.VR::Meta.XR.DetachedMetaQuestTouchPlusControllerProfile
   m_enabled: 0
+  <failedInitialization>k__BackingField: 0
   nameUi: Detached Meta Quest Touch Plus Controller Profile
   version: 0.0.1
   featureIdInternal: com.meta.openxr.feature.input.metaquestplus.detached
@@ -2540,6 +2535,7 @@ MonoBehaviour:
   m_Name: DetachedOculusTouchControllerProfile Android
   m_EditorClassIdentifier: Oculus.VR::Meta.XR.DetachedOculusTouchControllerProfile
   m_enabled: 0
+  <failedInitialization>k__BackingField: 0
   nameUi: Detached Oculus Touch Controller Profile
   version: 0.0.1
   featureIdInternal: com.meta.openxr.feature.input.oculustouch.detached
@@ -2700,7 +2696,7 @@ MonoBehaviour:
   nameUi: Meta XR Feature
   version: 0.0.1
   featureIdInternal: com.meta.openxr.feature.metaxr
-  openxrExtensionStrings: XR_KHR_vulkan_enable XR_KHR_D3D11_enable XR_OCULUS_common_reference_spaces
+  openxrExtensionStrings: 'XR_KHR_vulkan_enable XR_KHR_D3D11_enable XR_OCULUS_common_reference_spaces
     XR_FB_display_refresh_rate XR_EXT_performance_settings XR_FB_composition_layer_image_layout
     XR_KHR_android_surface_swapchain XR_FB_android_surface_swapchain_create XR_KHR_composition_layer_color_scale_bias
     XR_FB_color_space XR_EXT_hand_tracking XR_FB_swapchain_update_state XR_FB_swapchain_update_state_opengl_es
@@ -2726,15 +2722,12 @@ MonoBehaviour:
     XR_META_dynamic_object_keyboard XR_META_hand_tracking_microgestures XR_META_spatial_entity_persistence
     XR_META_spatial_entity_discovery XR_META_spatial_entity_room_mesh XR_META_boundary_visibility
     XR_META_face_tracking_visemes XR_META_headset_id XR_FB_composition_layer_settings
-    XR_META_automatic_layer_filter XR_FB_composition_layer_secure_content XR_METAX1_spatial_entity_marker
-    XR_EXT_spatial_entity XR_EXT_spatial_marker_tracking XR_META_environment_raycast
-    XR_EXT_future XR_METAX2_debug_utils_region_profiling XR_METAX3_debug_utils_region_profiling
-    XR_EXTX2_stationary_reference_space XR_META_recommended_layer_resolution XR_EXT_local_floor
-    XR_METAX1_passthrough_camera_data XR_METAX1_hand_tracking_frequency_hint XR_METAX1_hand_tracking_unextrapolated_poses
-    XR_METAX1_hand_tracking_wide_motion_mode2
+    XR_META_automatic_layer_filter XR_METAX1_spatial_entity_marker XR_EXT_spatial_entity
+    XR_EXT_spatial_marker_tracking XR_META_environment_raycast XR_EXT_future XR_EXTX2_stationary_reference_space
+    XR_META_recommended_layer_resolution XR_EXT_local_floor '
   company: Meta
   priority: 0
-  targetOpenXRApiVersion: 1.1.45
+  targetOpenXRApiVersion: 
   required: 0
   customRuntimeLoaderName: 
 --- !u!114 &8461216366325073885
@@ -2883,6 +2876,7 @@ MonoBehaviour:
   m_Name: DetachedOculusTouchControllerProfile Standalone
   m_EditorClassIdentifier: Oculus.VR::Meta.XR.DetachedOculusTouchControllerProfile
   m_enabled: 0
+  <failedInitialization>k__BackingField: 0
   nameUi: Detached Oculus Touch Controller Profile
   version: 0.0.1
   featureIdInternal: com.meta.openxr.feature.input.oculustouch.detached
