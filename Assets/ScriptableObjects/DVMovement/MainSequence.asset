@@ -14,14 +14,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DeepVisionMovementSequence
   steps:
   - targets:
-    - targetId: 123
-      position: {x: -26.388, y: 1.516, z: 3.842}
+    - targetId: ab
+      position: {x: -26.261, y: 1.03, z: 3.48}
       rotation: {x: 0, y: 0, z: 0}
       scale: {x: 0.7, y: 0.7, z: 0.7}
     duration: 0.5
   - targets:
-    - targetId: 123
-      position: {x: -26.388, y: 1.516, z: 3.842}
+    - targetId: ab
+      position: {x: -26.261, y: 1.68, z: 3.48}
+      rotation: {x: 0, y: 0, z: 0}
+      scale: {x: 0.7, y: 0.7, z: 0.7}
+    duration: 0.5
+  - targets:
+    - targetId: ab
+      position: {x: -23.6, y: 1.68, z: 3.48}
+      rotation: {x: 0, y: 0, z: 0}
+      scale: {x: 0.7, y: 0.7, z: 0.7}
+    duration: 0.5
+  - targets:
+    - targetId: ab
+      position: {x: -27.2, y: 1.68, z: 3.48}
+      rotation: {x: 0, y: 0, z: 0}
+      scale: {x: 0.7, y: 0.7, z: 0.7}
+    duration: 0.5
+  - targets:
+    - targetId: ab
+      position: {x: -27.2, y: 1.07, z: 3.48}
       rotation: {x: 0, y: 0, z: 0}
       scale: {x: 0.7, y: 0.7, z: 0.7}
     duration: 0.5
