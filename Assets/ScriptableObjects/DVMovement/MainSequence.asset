@@ -14,14 +14,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DeepVisionMovementSequence
   steps:
   - targets:
-    - targetId: 123
-      position: {x: -26.388, y: 1.516, z: 3.842}
+    - targetId: skeleton
+      position: {x: 3.31, y: 0.6148423, z: 0}
       rotation: {x: 0, y: 0, z: 0}
-      scale: {x: 0.7, y: 0.7, z: 0.7}
+      scale: {x: 0.0254, y: 0.0254, z: 0.0254}
     duration: 0.5
   - targets:
-    - targetId: 123
-      position: {x: -26.388, y: 1.516, z: 3.842}
+    - targetId: muscles
+      position: {x: 3.31, y: 0.6031419, z: 0.01150574}
+      rotation: {x: 89.98, y: 0, z: 0}
+      scale: {x: 0.02554345, y: 0.02554345, z: 0.02554345}
+    duration: 0.5
+  - targets:
+    - targetId: veins
+      position: {x: 3.31, y: 0.6148423, z: 0}
       rotation: {x: 0, y: 0, z: 0}
-      scale: {x: 0.7, y: 0.7, z: 0.7}
+      scale: {x: 0.0254, y: 0.0254, z: 0.0254}
     duration: 0.5

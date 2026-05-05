@@ -1,21 +1,73 @@
 using UnityEngine;
 using TMPro;
-using UnityEngine.XR.Interaction.Toolkit;
+using UnityEngine.UI;
 
 public class InformationPanelUI : MonoBehaviour
 {
-    [SerializeField] private TextMeshProUGUI infoText;
+    [Header("Event Channel")]
+    public PartFocusEnteredEventChannelSO focusEventChannel;
 
-    public void OnFocus(FocusEnterEventArgs args)
+    [Header("UI References")]
+    public TMP_Text titleText;
+    public TMP_Text descriptionText;
+    public Button previousButton;
+    public Button nextButton;
+
+    private ModelPartDataSO currentData;
+    private int currentIndex;
+
+    private void OnEnable()
     {
-        if (args.interactableObject == null)
-        {
-            infoText.text = "No Object";
-            return;
-        }
+        focusEventChannel.OnEventRaised += OnPartSelected;
+        previousButton.onClick.AddListener(ShowPrevious);
+        nextButton.onClick.AddListener(ShowNext);
+    }
 
-        // Get the GameObject name of the focused interactable
-        var interactable = args.interactableObject.transform.gameObject;
-        infoText.text = interactable.name;
+    private void OnDisable()
+    {
+        focusEventChannel.OnEventRaised -= OnPartSelected;
+        previousButton.onClick.RemoveListener(ShowPrevious);
+        nextButton.onClick.RemoveListener(ShowNext);
+    }
+
+    private void OnPartSelected(ModelPartDataSO data)
+    {
+        currentData = data;
+        currentIndex = 0;
+
+        UpdateUI();
+    }
+
+    private void ShowPrevious()
+    {
+        if (currentData == null) return;
+
+        currentIndex--;
+        UpdateUI();
+    }
+
+    private void ShowNext()
+    {
+        if (currentData == null) return;
+
+        currentIndex++;
+        UpdateUI();
+    }
+
+    private void UpdateUI()
+    {
+        if (currentData == null || currentData.descriptionChunks.Length == 0)
+            return;
+
+        titleText.text = currentData.partName;
+        descriptionText.text = currentData.descriptionChunks[currentIndex];
+
+        UpdateButtons();
+    }
+
+    private void UpdateButtons()
+    {
+        previousButton.interactable = currentIndex > 0;
+        nextButton.interactable = currentIndex < currentData.descriptionChunks.Length - 1;
     }
 }

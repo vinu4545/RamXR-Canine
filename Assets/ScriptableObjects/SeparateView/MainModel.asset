@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1511943e7ca7d8d4a93ca8f2ca151ab3, type: 3}
+  m_Name: MainModel
+  m_EditorClassIdentifier: Assembly-CSharp::SeparateViewDataSO
+  elements:
+  - targetId: skin
+    inactivePosition: {x: -0.002439834, y: 0.6171281, z: 0.001607778}
+    inactiveRotation: {x: 89.98, y: 0, z: 0}
+    inactiveScale: {x: 0.02543666, y: 0.02543666, z: 0.02543666}
+    activePosition: {x: -0.002439834, y: 2.37, z: 0}
+    activeRotation: {x: 89.98, y: 0, z: 0}
+    activeScale: {x: 0.02543666, y: 0.02543666, z: 0.02543666}
+  - targetId: muscles
+    inactivePosition: {x: -0.008998724, y: 0.603142, z: 0.01150571}
+    inactiveRotation: {x: 89.98, y: 0, z: 0}
+    inactiveScale: {x: 0.02554345, y: 0.02554346, z: 0.02554346}
+    activePosition: {x: -0.008998724, y: -1.18, z: 0.01}
+    activeRotation: {x: 89.98, y: 0, z: 0}
+    activeScale: {x: 0.02554345, y: 0.02554346, z: 0.02554346}
+  - targetId: skeleton
+    inactivePosition: {x: -0.00496456, y: 0.6148423, z: 0}
+    inactiveRotation: {x: 0, y: 0, z: 0}
+    inactiveScale: {x: 0.0254, y: 0.0254, z: 0.0254}
+    activePosition: {x: -0.00496456, y: 0.6148423, z: 2.9}
+    activeRotation: {x: 0, y: 0, z: 0}
+    activeScale: {x: 0.0254, y: 0.0254, z: 0.0254}
+  - targetId: red
+    inactivePosition: {x: 0, y: 0.6148423, z: 0}
+    inactiveRotation: {x: 0, y: 0, z: 0}
+    inactiveScale: {x: 0.0254, y: 0.0254, z: 0.0254}
+    activePosition: {x: 0, y: 0.6148423, z: -2.85}
+    activeRotation: {x: 0, y: 0, z: 0}
+    activeScale: {x: 0.0254, y: 0.0254, z: 0.0254}
+  - targetId: blue
+    inactivePosition: {x: 0, y: 0.6148423, z: 0}
+    inactiveRotation: {x: 0, y: 0, z: 0}
+    inactiveScale: {x: 0.0254, y: 0.0254, z: 0.0254}
+    activePosition: {x: -1.89, y: 0.6148423, z: 0}
+    activeRotation: {x: 0, y: 0, z: 0}
+    activeScale: {x: 0.0254, y: 0.0254, z: 0.0254}
+  - targetId: brain
+    inactivePosition: {x: -0.005836756, y: 1.723712, z: 1.040579}
+    inactiveRotation: {x: 89.98, y: 0, z: 0}
+    inactiveScale: {x: 0.024142, y: 0.02414201, z: 0.02414201}
+    activePosition: {x: 0.349, y: 1.606, z: 1.214}
+    activeRotation: {x: 89.98, y: 0, z: 0}
+    activeScale: {x: 0.024142, y: 0.02414201, z: 0.02414201}
+  - targetId: lungs
+    inactivePosition: {x: 0, y: 0, z: 0}
+    inactiveRotation: {x: 0, y: 0, z: 0}
+    inactiveScale: {x: 1, y: 1, z: 1}
+    activePosition: {x: 0.815, y: -0.131, z: 0.532}
+    activeRotation: {x: 0, y: 0, z: 0}
+    activeScale: {x: 1, y: 1, z: 1}
+  - targetId: heart
+    inactivePosition: {x: -0.0206236, y: 1.17336, z: 0.3694907}
+    inactiveRotation: {x: 89.98, y: 0, z: 0}
+    inactiveScale: {x: 0.02554345, y: 0.02554346, z: 0.02554346}
+    activePosition: {x: 0.965, y: 0.839, z: 0.3694907}
+    activeRotation: {x: 89.98, y: 0, z: 0}
+    activeScale: {x: 0.02554345, y: 0.02554346, z: 0.02554346}
+  - targetId: liver
+    inactivePosition: {x: 0, y: 0, z: 0}
+    inactiveRotation: {x: 0, y: 0, z: 0}
+    inactiveScale: {x: 1, y: 1, z: 1}
+    activePosition: {x: 0.365, y: 0.302, z: 0}
+    activeRotation: {x: 0, y: 0, z: 0}
+    activeScale: {x: 1, y: 1, z: 1}
+  - targetId: guts
+    inactivePosition: {x: 0, y: 0, z: 0}
+    inactiveRotation: {x: 0, y: 0, z: 0}
+    inactiveScale: {x: 1, y: 1, z: 1}
+    activePosition: {x: 0.757, y: -0.445, z: -0.16}
+    activeRotation: {x: 0, y: 0, z: 0}
+    activeScale: {x: 1, y: 1, z: 1}
+  - targetId: testicles
+    inactivePosition: {x: 0, y: 0, z: 0}
+    inactiveRotation: {x: 0, y: 0, z: 0}
+    inactiveScale: {x: 1, y: 1, z: 1}
+    activePosition: {x: -1.214, y: 0, z: 0}
+    activeRotation: {x: 0, y: 0, z: 0}
+    activeScale: {x: 1, y: 1, z: 1}
+  transitionDuration: 1

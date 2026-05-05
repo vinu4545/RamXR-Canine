@@ -568,7 +568,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 3157013780879439102}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: HierarchyTesting, Assembly-CSharp
         m_MethodName: OnClick
         m_Mode: 1
@@ -777,7 +777,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 3157013780879439102}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: HierarchyTesting, Assembly-CSharp
         m_MethodName: OnClick
         m_Mode: 1
@@ -1077,7 +1077,8 @@ PrefabInstance:
       propertyPath: m_Value
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7854325930945708748, guid: ceb7645182ffdd1489b6be23ad1699bb, type: 3}
     m_RemovedGameObjects:
     - {fileID: 6245301970768643277, guid: ceb7645182ffdd1489b6be23ad1699bb, type: 3}
     - {fileID: 8408712200842359808, guid: ceb7645182ffdd1489b6be23ad1699bb, type: 3}
@@ -1088,24 +1089,34 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 6830336856302158921, guid: ceb7645182ffdd1489b6be23ad1699bb, type: 3}
       insertIndex: -1
       addedObject: {fileID: 4672780139994966627}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6382566429595033604, guid: ceb7645182ffdd1489b6be23ad1699bb, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2460346491702508447}
   m_SourcePrefab: {fileID: 100100000, guid: ceb7645182ffdd1489b6be23ad1699bb, type: 3}
 --- !u!224 &1731044383355728507 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 6830336856302158921, guid: ceb7645182ffdd1489b6be23ad1699bb, type: 3}
   m_PrefabInstance: {fileID: 5102539479776523826}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &3157013780879439102 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7854325930945708748, guid: ceb7645182ffdd1489b6be23ad1699bb, type: 3}
+--- !u!1 &2187820085406864950 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6382566429595033604, guid: ceb7645182ffdd1489b6be23ad1699bb, type: 3}
   m_PrefabInstance: {fileID: 5102539479776523826}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+--- !u!114 &2460346491702508447
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2187820085406864950}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b3b9e3e90e374d84cae697367ab61cb9, type: 3}
+  m_Script: {fileID: 11500000, guid: bb060c5948087e5449e335dd69cbf90c, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::HierarchyTesting
+  m_EditorClassIdentifier: Assembly-CSharp::InformationPanelUI
+  infoText: {fileID: 0}
 --- !u!224 &7140208062121524359 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 2727142852606708405, guid: ceb7645182ffdd1489b6be23ad1699bb, type: 3}
