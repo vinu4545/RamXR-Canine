@@ -56,12 +56,12 @@ MonoBehaviour:
     activeRotation: {x: 89.98, y: 0, z: 0}
     activeScale: {x: 0.024142, y: 0.02414201, z: 0.02414201}
   - targetId: lungs
-    inactivePosition: {x: 0, y: 0, z: 0}
-    inactiveRotation: {x: 0, y: 0, z: 0}
-    inactiveScale: {x: 1, y: 1, z: 1}
-    activePosition: {x: 0.815, y: -0.131, z: 0.532}
-    activeRotation: {x: 0, y: 0, z: 0}
-    activeScale: {x: 1, y: 1, z: 1}
+    inactivePosition: {x: -0.008, y: 0.548, z: -0.028}
+    inactiveRotation: {x: 89.98, y: 0, z: 0}
+    inactiveScale: {x: 0.02749064, y: 0.02749064, z: 0.02749064}
+    activePosition: {x: -0.008, y: 0.548, z: -0.028}
+    activeRotation: {x: 89.98, y: 0, z: 0}
+    activeScale: {x: 0.02749064, y: 0.02749064, z: 0.02749064}
   - targetId: heart
     inactivePosition: {x: -0.0206236, y: 1.17336, z: 0.3694907}
     inactiveRotation: {x: 89.98, y: 0, z: 0}
@@ -70,19 +70,19 @@ MonoBehaviour:
     activeRotation: {x: 89.98, y: 0, z: 0}
     activeScale: {x: 0.02554345, y: 0.02554346, z: 0.02554346}
   - targetId: liver
-    inactivePosition: {x: 0, y: 0, z: 0}
-    inactiveRotation: {x: 0, y: 0, z: 0}
-    inactiveScale: {x: 1, y: 1, z: 1}
-    activePosition: {x: 0.365, y: 0.302, z: 0}
-    activeRotation: {x: 0, y: 0, z: 0}
-    activeScale: {x: 1, y: 1, z: 1}
+    inactivePosition: {x: 0, y: 1.329, z: 0.45}
+    inactiveRotation: {x: 89.98, y: 0, z: 0}
+    inactiveScale: {x: 0.02649064, y: 0.02649064, z: 0.02649064}
+    activePosition: {x: -0.008, y: 0.548, z: -0.028}
+    activeRotation: {x: 89.98, y: 0, z: 0}
+    activeScale: {x: 0.02649064, y: 0.02649064, z: 0.02649064}
   - targetId: guts
-    inactivePosition: {x: 0, y: 0, z: 0}
-    inactiveRotation: {x: 0, y: 0, z: 0}
-    inactiveScale: {x: 1, y: 1, z: 1}
-    activePosition: {x: 0.757, y: -0.445, z: -0.16}
+    inactivePosition: {x: -0.086, y: 1.278, z: -0.189}
+    inactiveRotation: {x: 89.98, y: 0, z: 0}
+    inactiveScale: {x: 0.02313761, y: 0.02313761, z: 0.02313761}
+    activePosition: {x: -0.086, y: 1.278, z: -0.189}
     activeRotation: {x: 0, y: 0, z: 0}
-    activeScale: {x: 1, y: 1, z: 1}
+    activeScale: {x: 0.02313761, y: 0.02313761, z: 0.02313761}
   - targetId: testicles
     inactivePosition: {x: 0, y: 0, z: 0}
     inactiveRotation: {x: 0, y: 0, z: 0}
