@@ -26,4 +26,9 @@ public class sceneChange : MonoBehaviour
     {
         SceneManager.LoadScene("Nerves"); 
     }
+    
+ public void LoadStartScene()
+    {
+        SceneManager.LoadScene("StartScene"); 
+    }
 }
