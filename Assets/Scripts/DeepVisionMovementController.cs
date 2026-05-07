@@ -60,6 +60,56 @@ public class DeepVisionMovementController : MonoBehaviour
         currentRoutine = StartCoroutine(AnimateStep(index));
     }
 
+    // IEnumerator AnimateStep(int stepIndex)
+    // {
+    //     var step = sequence.steps[stepIndex];
+
+    //     float time = 0f;
+
+    //     Dictionary<string, TransformData> startStates = new();
+
+    //     // Capture current state
+    //     foreach (var t in step.targets)
+    //     {
+    //         Transform obj = binder.Get(t.targetId);
+
+    //         if (obj == null)
+    //             continue;
+
+    //         startStates[t.targetId] = new TransformData(obj);
+    //     }
+
+    //     while (time < step.duration)
+    //     {
+    //         float t = Mathf.SmoothStep(0f, 1f, time / step.duration);
+
+    //         foreach (var target in step.targets)
+    //         {
+    //             Transform obj = binder.Get(target.targetId);
+    //             if (obj == null) continue;
+
+    //             var start = startStates[target.targetId];
+
+    //             obj.localPosition = Vector3.Lerp(start.position, target.position, t);
+    //             obj.localRotation = Quaternion.Lerp(start.rotation, Quaternion.Euler(target.rotation), t);
+    //             obj.localScale = Vector3.Lerp(start.scale, target.scale, t);
+    //         }
+
+    //         time += Time.deltaTime;
+    //         yield return null;
+    //     }
+
+    //     // Snap final state
+    //     foreach (var target in step.targets)
+    //     {
+    //         Transform obj = binder.Get(target.targetId);
+    //         if (obj == null) continue;
+
+    //         obj.localPosition = target.position;
+    //         obj.localRotation = Quaternion.Euler(target.rotation);
+    //         obj.localScale = target.scale;
+    //     }
+    // }
     IEnumerator AnimateStep(int stepIndex)
     {
         var step = sequence.steps[stepIndex];
@@ -68,59 +118,86 @@ public class DeepVisionMovementController : MonoBehaviour
 
         Dictionary<string, TransformData> startStates = new();
 
-        // Capture current state
+        // Step target lookup
+        Dictionary<string, TransformTarget> stepTargets = new();
+        HashSet<string> activeIds = new();
+
         foreach (var t in step.targets)
         {
-            Transform obj = binder.Get(t.targetId);
+            stepTargets[t.targetId] = t;
+            activeIds.Add(t.targetId);
+        }
 
-            if (obj == null)
-                continue;
+        // Capture current state for ALL objects (not just step ones)
+        foreach (var kvp in initialStates)
+        {
+            Transform obj = binder.Get(kvp.Key);
+            if (obj == null) continue;
 
-            startStates[t.targetId] = new TransformData(obj);
+            startStates[kvp.Key] = new TransformData(obj);
         }
 
         while (time < step.duration)
         {
             float t = Mathf.SmoothStep(0f, 1f, time / step.duration);
 
-            foreach (var target in step.targets)
+            foreach (var kvp in initialStates)
             {
-                Transform obj = binder.Get(target.targetId);
+                string id = kvp.Key;
+                Transform obj = binder.Get(id);
                 if (obj == null) continue;
 
-                var start = startStates[target.targetId];
+                var start = startStates[id];
 
-                obj.localPosition = Vector3.Lerp(start.position, target.position, t);
-                obj.localRotation = Quaternion.Lerp(start.rotation, Quaternion.Euler(target.rotation), t);
-                obj.localScale = Vector3.Lerp(start.scale, target.scale, t);
+                Vector3 targetPos;
+                Quaternion targetRot;
+                Vector3 targetScale;
+
+                if (activeIds.Contains(id))
+                {
+                    var target = stepTargets[id];
+                    targetPos = target.position;
+                    targetRot = Quaternion.Euler(target.rotation);
+                    targetScale = target.scale;
+                }
+                else
+                {
+                    var initial = initialStates[id];
+                    targetPos = initial.position;
+                    targetRot = initial.rotation;
+                    targetScale = initial.scale;
+                }
+
+                obj.localPosition = Vector3.Lerp(start.position, targetPos, t);
+                obj.localRotation = Quaternion.Lerp(start.rotation, targetRot, t);
+                obj.localScale = Vector3.Lerp(start.scale, targetScale, t);
             }
 
             time += Time.deltaTime;
             yield return null;
         }
 
-        // Snap final state
-        foreach (var target in step.targets)
-        {
-            Transform obj = binder.Get(target.targetId);
-            if (obj == null) continue;
-
-            obj.localPosition = target.position;
-            obj.localRotation = Quaternion.Euler(target.rotation);
-            obj.localScale = target.scale;
-        }
-    }
-
-    public void ResetAll()
-    {
+        // Final snap (important for precision)
         foreach (var kvp in initialStates)
         {
-            Transform obj = binder.Get(kvp.Key);
+            string id = kvp.Key;
+            Transform obj = binder.Get(id);
             if (obj == null) continue;
 
-            obj.localPosition = kvp.Value.position;
-            obj.localRotation = kvp.Value.rotation;
-            obj.localScale = kvp.Value.scale;
+            if (activeIds.Contains(id))
+            {
+                var target = stepTargets[id];
+                obj.localPosition = target.position;
+                obj.localRotation = Quaternion.Euler(target.rotation);
+                obj.localScale = target.scale;
+            }
+            else
+            {
+                var initial = initialStates[id];
+                obj.localPosition = initial.position;
+                obj.localRotation = initial.rotation;
+                obj.localScale = initial.scale;
+            }
         }
     }
 
