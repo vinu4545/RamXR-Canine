@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3569620583514598436
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7193058371385590366}
+  - component: {fileID: 925624937459353866}
+  m_Layer: 0
+  m_Name: manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7193058371385590366
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3569620583514598436}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -31.7354, y: -0.078, z: 11.019}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &925624937459353866
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3569620583514598436}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09043890b56938d48a47f3fb76cfbe87, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PanelAudioController
+  _ttsSpeaker: {fileID: 0}
+  _titleText: {fileID: 0}
+  _descriptionText: {fileID: 0}
+  _listenButton: {fileID: 0}
+  _previousButton: {fileID: 0}
+  _nextButton: {fileID: 0}
+  _panels:
+  - title: skeleton
+    description: The dog skeletal system provides structure, support, and protection
+      to the body. It is made up of bones such as the skull, spine, ribs, and limbs,
+      which help the dog move, maintain balance, and protect vital organs like the
+      brain, heart, and lungs. The skeletal system also works together with muscles
+      to enable movement and flexibility.
+  - title: cute
+    description: small dogs are very cute
+  - title: organs
+    description: The organ system of a dog consists of important internal organs
+      such as the heart, lungs, liver, stomach, kidneys, and intestines. These organs
+      work together to perform essential functions like breathing, digestion, blood
+      circulation, waste removal, and maintaining overall body health. Each organ
+      has a specific role that helps the dog survive and function properly.
