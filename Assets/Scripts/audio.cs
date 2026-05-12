@@ -1,54 +1,104 @@
 using UnityEngine;
+using UnityEngine.UI;
+using Meta.WitAi.TTS.Utilities;
 using TMPro;
-using Meta.WitAi.TTS.Utilities; // Essential for the Meta Quest TTS Agent
 
-public class audio : MonoBehaviour
+public class PanelAudioController : MonoBehaviour
 {
-    [Header("UI & Audio References")]
-    public TextMeshProUGUI infoText;
-    public TTSSpeaker ttsSpeaker; // Drag the [BuildingBlock] Text To Speech here
+    [Header("References")]
+    [SerializeField] private TTSSpeaker _ttsSpeaker;
+    [SerializeField] private TMP_Text _titleText;
+    [SerializeField] private TMP_Text _descriptionText;
+    [SerializeField] private Button _listenButton;
+    [SerializeField] private Button _previousButton;
+    [SerializeField] private Button _nextButton;
 
-    private int index = 0;
+    [Header("Panel Data")]
+    [SerializeField] private PanelData[] _panels;
 
-    // Content from your panel in image_b4675c.png
-    private string[] data = {
-        "Dog anatomy refers to the structure of a dog's body, including its external features and internal systems. Externally, it includes parts like the head, ears, legs, tail, and coat.",
-        "Internally, a dog's body is made up of systems such as the skeletal system for support, and the muscular system for movement.",
-        "The circulatory system manages heart and blood flow, while the respiratory system uses lungs for breathing.",
-        "The digestive system processes food, and the nervous system uses the brain and nerves for control. All these systems work together to help the dog move and maintain health."
-    };
+    private int _currentIndex = 0;
 
-    void Start()
+    private void Start()
     {
-        // Set the initial text
-        if (infoText != null) infoText.text = data[0];
+        _listenButton.onClick.AddListener(OnListenClicked);
+        _previousButton.onClick.AddListener(OnPreviousClicked);
+        _nextButton.onClick.AddListener(OnNextClicked);
+
+        UpdatePanel();
     }
 
-    public void Next()
+    private void OnNextClicked()
     {
-        index = (index + 1) % data.Length;
-        UpdateUI(true); // Automatically speaks when you change page
+        _currentIndex = (_currentIndex + 1) % _panels.Length;
+        UpdatePanel();
     }
 
-    public void Previous()
+    private void OnPreviousClicked()
     {
-        index = (index - 1 + data.Length) % data.Length;
-        UpdateUI(true);
+        _currentIndex = (_currentIndex - 1 + _panels.Length) % _panels.Length;
+        UpdatePanel();
     }
 
-    // Function for your Speaker Button
-    public void PlayCurrentAudio()
+    private void UpdatePanel()
     {
-        if (ttsSpeaker != null)
+        _ttsSpeaker.Stop();
+        _titleText.text = _panels[_currentIndex].title;
+        _descriptionText.text = _panels[_currentIndex].description;
+        _listenButton.interactable = true;
+    }
+
+    private void OnListenClicked()
+    {
+        if (_ttsSpeaker == null || _descriptionText == null)
         {
-            ttsSpeaker.Stop(); 
-            ttsSpeaker.Speak(data[index]);
+            Debug.LogError("PanelAudioController: Missing reference!");
+            return;
         }
+
+        string textToSpeak = _descriptionText.text;
+        if (string.IsNullOrWhiteSpace(textToSpeak)) return;
+
+        _listenButton.interactable = false;
+        _ttsSpeaker.Stop();
+        _ttsSpeaker.SpeakQueued(textToSpeak);
+
+        StartCoroutine(WaitForSpeakToFinish());
     }
 
-    void UpdateUI(bool shouldSpeak)
+    private System.Collections.IEnumerator WaitForSpeakToFinish()
     {
-        if (infoText != null) infoText.text = data[index];
-        if (shouldSpeak) PlayCurrentAudio();
+        yield return null;
+
+        AudioSource audio = _ttsSpeaker.GetComponent<AudioSource>();
+
+        if (audio != null)
+        {
+            yield return new WaitUntil(() => audio.isPlaying);
+            yield return new WaitWhile(() => audio.isPlaying);
+        }
+        else
+        {
+            int wordCount = _descriptionText.text.Split(' ').Length;
+            float estimatedDuration = wordCount * 0.4f;
+            yield return new WaitForSeconds(estimatedDuration);
+        }
+
+        _listenButton.interactable = true;
     }
+
+    private void OnDestroy()
+    {
+        _listenButton.onClick.RemoveListener(OnListenClicked);
+        _previousButton.onClick.RemoveListener(OnPreviousClicked);
+        _nextButton.onClick.RemoveListener(OnNextClicked);
+        StopAllCoroutines();
+    }
+}
+
+[System.Serializable]
+public class PanelData
+{
+    public string title;
+    [TextArea(3, 6)]
+    public string description;
 }
