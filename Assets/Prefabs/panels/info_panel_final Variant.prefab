@@ -1116,7 +1116,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb060c5948087e5449e335dd69cbf90c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InformationPanelUI
-  infoText: {fileID: 0}
+  focusEventChannel: {fileID: 11400000, guid: b280ffb4bcd94a643b6f14902926daa7, type: 2}
+  titleText: {fileID: 6337587231436818469}
+  descriptionText: {fileID: 8321149592049450541}
+  previousButton: {fileID: 9166259647779723803}
+  nextButton: {fileID: 7416019491367153049}
+--- !u!114 &6337587231436818469 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1242006810402733591, guid: ceb7645182ffdd1489b6be23ad1699bb, type: 3}
+  m_PrefabInstance: {fileID: 5102539479776523826}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!224 &7140208062121524359 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 2727142852606708405, guid: ceb7645182ffdd1489b6be23ad1699bb, type: 3}
