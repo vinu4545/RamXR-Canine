@@ -16,14 +16,29 @@ public class ModelPart : MonoBehaviour
 
     public string Id => partData != null ? partData.id : string.Empty;
 
-    private void Awake()
+    void Awake()
     {
         if (interactable == null)
             interactable = GetComponent<XRBaseInteractable>();
-
-        if (label != null)
-            label.SetActive(false);
     }
+
+    public void TurnOffLabel()
+    {
+        if (label != null)
+        {
+            Debug.Log($"Turning off label for part: {Id}");
+            label.SetActive(false);
+        }
+    }
+
+    // public void ShowLabel()
+    // {
+    //     if (label != null)
+    //     {
+    //         Debug.Log($"Turning on label for part: {Id}");
+    //         label.SetActive(true);
+    //     }
+    // }
 
     private void OnEnable()
     {
@@ -42,13 +57,18 @@ public class ModelPart : MonoBehaviour
     private void OnHoverEnter(HoverEnterEventArgs args)
     {
         if (label != null)
+        {
+            Debug.Log($"Turning on label for part: {Id}");
             label.SetActive(true);
+            LabelSystem.Instance.ShowOnly(this);
+        }
     }
 
     private void OnHoverExit(HoverExitEventArgs args)
     {
         if (label != null)
             label.SetActive(false);
+        LabelSystem.Instance.HideAll();
     }
 
     private void OnFocusEntered(SelectEnterEventArgs args)

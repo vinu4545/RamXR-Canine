@@ -22,6 +22,11 @@ public class DeepVisionUIController : MonoBehaviour
         ShowStep(0);
     }
 
+    void OnDisable()
+    {
+        DeepVisionMovementController.Instance.ResetAllTransforms();
+    }
+
     void GenerateButtons()
     {
         int count = tutorialData.steps.Length;

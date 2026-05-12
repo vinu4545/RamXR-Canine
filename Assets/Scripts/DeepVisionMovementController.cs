@@ -11,8 +11,16 @@ public class DeepVisionMovementController : MonoBehaviour
     private Dictionary<string, TransformData> initialStates = new();
     private Coroutine currentRoutine;
 
+    public static DeepVisionMovementController Instance { get; private set; }
+
     void Awake()
     {
+        if (Instance != null && Instance != this)
+        {
+            Destroy(gameObject);
+            return;
+        }
+        Instance = this;
         CacheInitialStates();
     }
 
@@ -60,56 +68,7 @@ public class DeepVisionMovementController : MonoBehaviour
         currentRoutine = StartCoroutine(AnimateStep(index));
     }
 
-    // IEnumerator AnimateStep(int stepIndex)
-    // {
-    //     var step = sequence.steps[stepIndex];
 
-    //     float time = 0f;
-
-    //     Dictionary<string, TransformData> startStates = new();
-
-    //     // Capture current state
-    //     foreach (var t in step.targets)
-    //     {
-    //         Transform obj = binder.Get(t.targetId);
-
-    //         if (obj == null)
-    //             continue;
-
-    //         startStates[t.targetId] = new TransformData(obj);
-    //     }
-
-    //     while (time < step.duration)
-    //     {
-    //         float t = Mathf.SmoothStep(0f, 1f, time / step.duration);
-
-    //         foreach (var target in step.targets)
-    //         {
-    //             Transform obj = binder.Get(target.targetId);
-    //             if (obj == null) continue;
-
-    //             var start = startStates[target.targetId];
-
-    //             obj.localPosition = Vector3.Lerp(start.position, target.position, t);
-    //             obj.localRotation = Quaternion.Lerp(start.rotation, Quaternion.Euler(target.rotation), t);
-    //             obj.localScale = Vector3.Lerp(start.scale, target.scale, t);
-    //         }
-
-    //         time += Time.deltaTime;
-    //         yield return null;
-    //     }
-
-    //     // Snap final state
-    //     foreach (var target in step.targets)
-    //     {
-    //         Transform obj = binder.Get(target.targetId);
-    //         if (obj == null) continue;
-
-    //         obj.localPosition = target.position;
-    //         obj.localRotation = Quaternion.Euler(target.rotation);
-    //         obj.localScale = target.scale;
-    //     }
-    // }
     IEnumerator AnimateStep(int stepIndex)
     {
         var step = sequence.steps[stepIndex];
@@ -198,6 +157,29 @@ public class DeepVisionMovementController : MonoBehaviour
                 obj.localRotation = initial.rotation;
                 obj.localScale = initial.scale;
             }
+        }
+    }
+    public void ResetAllTransforms()
+    {
+        if (currentRoutine != null)
+        {
+            StopCoroutine(currentRoutine);
+            currentRoutine = null;
+        }
+
+        foreach (var kvp in initialStates)
+        {
+            string id = kvp.Key;
+
+            Transform obj = binder.Get(id);
+            if (obj == null)
+                continue;
+
+            TransformData initial = kvp.Value;
+
+            obj.localPosition = initial.position;
+            obj.localRotation = initial.rotation;
+            obj.localScale = initial.scale;
         }
     }
 
