@@ -1431,7 +1431,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1973740485}
+  m_Father: {fileID: 8556602829357580673}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!210 &463214729
 SortingGroup:
@@ -3633,11 +3633,6 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -5662732271284507570, guid: f5efb1eb753b485469c8c4262a5d6ef3, type: 3}
---- !u!4 &952672130 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 8556602829374971074, guid: 9ee41dc4d29c934459c04f172223d773, type: 3}
-  m_PrefabInstance: {fileID: 277388706}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &992691377
 GameObject:
   m_ObjectHideFlags: 0
@@ -4529,7 +4524,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 952672130}
+  m_Father: {fileID: 8556602829634519392}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!210 &1291944919
 SortingGroup:
@@ -6684,11 +6679,6 @@ MonoBehaviour:
   focusEventChannel: {fileID: 11400000, guid: b280ffb4bcd94a643b6f14902926daa7, type: 2}
   label: {fileID: 0}
   interactable: {fileID: 1893624787}
---- !u!4 &1973740485 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 8556602829081320483, guid: 9ee41dc4d29c934459c04f172223d773, type: 3}
-  m_PrefabInstance: {fileID: 277388706}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2004158782
 GameObject:
   m_ObjectHideFlags: 0
@@ -25149,6 +25139,16 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
   m_IsActive: 1
+--- !u!4 &8556602829357580673 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8556602829081320483, guid: 9ee41dc4d29c934459c04f172223d773, type: 3}
+  m_PrefabInstance: {fileID: 277388706}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &8556602829634519392 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8556602829374971074, guid: 9ee41dc4d29c934459c04f172223d773, type: 3}
+  m_PrefabInstance: {fileID: 277388706}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &8559676077848887795
 GameObject:
   m_ObjectHideFlags: 0
