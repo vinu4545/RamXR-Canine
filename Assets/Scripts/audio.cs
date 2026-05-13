@@ -51,7 +51,7 @@ public class PanelAudioController : MonoBehaviour
     {
         if (_ttsSpeaker == null || _descriptionText == null)
         {
-            Debug.LogError("PanelAudioController: Missing reference!");
+            Debug.LogError("PanelAudioController: Missing reference");
             return;
         }
 
