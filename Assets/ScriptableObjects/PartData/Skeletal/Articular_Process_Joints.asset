@@ -14,4 +14,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ModelPartDataSO
   id: Articular_Process_Joints
   partName: Articular_Process_Joints
-  descriptionChunks: []
+  descriptionChunks:
+  - Articular process joints are specialized vertebral joints located between adjacent
+    vertebrae throughout the canine spine. These joints are formed by superior and
+    inferior articular processes covered with smooth cartilage that reduces friction
+    during movement. Their primary function is to guide spinal motion while maintaining
+    stability and protecting the spinal cord from
+  - ' excessive displacement. Articular process joints allow controlled bending,
+    extension, and rotational movement necessary for posture, flexibility, and locomotion.
+    Ligaments and surrounding muscles further support these joints during physical
+    activity. Proper joint health is essential for coordinated movement and spinal
+    alignment.'
