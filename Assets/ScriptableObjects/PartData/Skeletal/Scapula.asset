@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 486f137ac72fd004c9131b1648f76380, type: 3}
+  m_Name: Scapula
+  m_EditorClassIdentifier: Assembly-CSharp::ModelPartDataSO
+  id: Scapula_R
+  partName: Scapula
+  descriptionChunks:
+  - The scapula is a large flat bone forming the canine shoulder blade and serving
+    as a major attachment site for muscles controlling forelimb movement. Positioned
+    along the lateral thoracic wall, it connects the forelimb to the trunk through
+    muscular attachments rather than a direct bony joint.
+  - The scapula contributes significantly to mobility, flexibility, and shock absorption
+    during locomotion. Its spine, fossae, and processes provide attachment areas
+    for muscles involved in shoulder stabilization and limb propulsion. The bone
+    also supports smooth shoulder articulation with the humerus.

@@ -13,5 +13,13 @@ MonoBehaviour:
   m_Name: Forepaw_Digit3_Proximal_R
   m_EditorClassIdentifier: Assembly-CSharp::ModelPartDataSO
   id: Forepaw_Digit3_Proximal_R
-  partName: Forepaw_Digit3_Proximal_R
-  descriptionChunks: []
+  partName: Forepaw Digit3 Proximal Right
+  descriptionChunks:
+  - "The right forepaw digit three proximal phalanx is the first phalangeal bone
+    of the third digit within the canine forepaw. It connects the metacarpal bone
+    to the middle phalanx, forming part of the digit\u2019s flexible joint system.This
+    bone contributes to toe movement, balance, and efficient"
+  - ' weight distribution during locomotion and standing activities. Tendons and
+    ligaments attached to the proximal phalanx control flexion, extension, and stabilization
+    of the digit. The third digit plays a significant role in supporting body weight
+    and maintaining traction during movement.'

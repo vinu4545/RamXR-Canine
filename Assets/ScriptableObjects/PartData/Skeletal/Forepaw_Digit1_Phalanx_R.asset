@@ -13,5 +13,14 @@ MonoBehaviour:
   m_Name: Forepaw_Digit1_Phalanx_R
   m_EditorClassIdentifier: Assembly-CSharp::ModelPartDataSO
   id: Forepaw_Digit1_Phalanx_R
-  partName: Forepaw_Digit1_Phalanx_R
-  descriptionChunks: []
+  partName: Forepaw Digit1 Phalanx Right
+  descriptionChunks:
+  - The right forepaw digit one phalanx forms part of the skeletal structure of the
+    first digit within the canine forepaw. This bone supports movement and positioning
+    of the digit during locomotion, balance, and weight distribution. It serves as
+    an attachment point for tendons and ligaments controlling flexion and extension
+    of the toe.
+  - Although smaller than other weight-bearing digits, the first digit contributes
+    to stability and coordination during specific movements such as turning or gripping
+    uneven surfaces. Proper alignment and structural integrity are important for
+    smooth paw mechanics and balanced movement.

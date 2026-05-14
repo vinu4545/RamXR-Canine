@@ -13,5 +13,13 @@ MonoBehaviour:
   m_Name: Patella_L
   m_EditorClassIdentifier: Assembly-CSharp::ModelPartDataSO
   id: Patella_L
-  partName: Patella_L
-  descriptionChunks: []
+  partName: Patella Left
+  descriptionChunks:
+  - The left patella is a small but important bone positioned within the quadriceps
+    tendon at the front of the canine stifle joint. It enhances the mechanical advantage
+    of the quadriceps muscle by improving force transmission during extension of
+    the hindlimb. The patella also stabilizes the tendon and protects the stifle
+    joint from excessive stress during movement.
+  - Proper positioning and alignment are essential for smooth joint function, efficient
+    locomotion, and balanced weight-bearing activities. The bone contributes significantly
+    to running, jumping, and coordinated hindlimb motion.

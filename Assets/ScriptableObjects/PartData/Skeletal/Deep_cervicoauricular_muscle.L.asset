@@ -13,5 +13,13 @@ MonoBehaviour:
   m_Name: Deep_cervicoauricular_muscle.L
   m_EditorClassIdentifier: Assembly-CSharp::ModelPartDataSO
   id: Deep_cervicoauricular_muscle.L
-  partName: Deep_cervicoauricular_muscle.L
-  descriptionChunks: []
+  partName: Deep cervicoauricular muscle Left
+  descriptionChunks:
+  - The left deep cervicoauricular muscle is located within the cervical and auricular
+    region of the canine anatomy, connecting deeper neck structures to the ear area.
+    This muscle contributes primarily to ear movement and positioning by assisting
+    in subtle adjustments of the auricle during communication and environmental awareness.
+  - Coordinated ear mobility helps dogs detect sounds accurately and express behavioral
+    responses through ear posture. The deep cervicoauricular muscle also works with
+    neighboring muscles to stabilize soft tissues surrounding the ear and upper neck.
+    Although relatively small, it supports important sensory and communicative functions.

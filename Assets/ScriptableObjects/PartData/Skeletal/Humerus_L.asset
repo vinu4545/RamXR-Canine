@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 486f137ac72fd004c9131b1648f76380, type: 3}
+  m_Name: Humerus_L
+  m_EditorClassIdentifier: Assembly-CSharp::ModelPartDataSO
+  id: Humerus_L
+  partName: Humerus left
+  descriptionChunks:
+  - The left humerus is a long bone located in the upper portion of the canine left
+    forelimb, connecting the shoulder to the elbow. It forms articulations with the
+    scapula, radius, and ulna, enabling coordinated movement and weight-bearing during
+    locomotion. This bone contains important attachment
+  - sites for muscles responsible for flexion, extension, and stabilization of the
+    forelimb. The humerus plays a major role in transmitting forces generated during
+    running, jumping, and standing activities. Its structural design supports both
+    mobility and strength while maintaining joint alignment.

@@ -13,5 +13,12 @@ MonoBehaviour:
   m_Name: Brachialis_muscle.L
   m_EditorClassIdentifier: Assembly-CSharp::ModelPartDataSO
   id: Brachialis_muscle.L
-  partName: Brachialis_muscle.L
-  descriptionChunks: []
+  partName: Brachialis muscle Left
+  descriptionChunks:
+  - The brachialis muscles are located along the lateral aspect of the canine humerus
+    on both forelimbs. Originating from the proximal humerus, each muscle spirals
+    around the bone before inserting onto the ulna near the elbow joint.
+  - Their primary function is elbow flexion, working alongside the biceps brachii
+    to enable controlled bending during locomotion and coordinated paw placement.
+    The brachialis also contributes to joint stabilization. Injury or inflammation
+    can restrict elbow motion and reduce overall forelimb efficiency.

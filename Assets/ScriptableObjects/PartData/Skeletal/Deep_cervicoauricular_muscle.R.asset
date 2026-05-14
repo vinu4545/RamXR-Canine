@@ -13,5 +13,14 @@ MonoBehaviour:
   m_Name: Deep_cervicoauricular_muscle.R
   m_EditorClassIdentifier: Assembly-CSharp::ModelPartDataSO
   id: Deep_cervicoauricular_muscle.R
-  partName: Deep_cervicoauricular_muscle.R
-  descriptionChunks: []
+  partName: Deep cervicoauricular muscle Right
+  descriptionChunks:
+  - The right deep cervicoauricular muscle is a small muscular structure positioned
+    between the deeper cervical tissues and the auricular region of the canine head.
+    Its primary function involves assisting with ear movement, stabilization, and
+    orientation during sensory and behavioral responses.
+  - This muscle enables fine adjustments of the auricle, helping dogs localize sounds
+    and communicate through changes in ear posture. It operates in coordination with
+    surrounding auricular muscles to maintain smooth and responsive ear motion. Despite
+    its modest size, the muscle contributes significantly to auditory awareness and
+    expression.

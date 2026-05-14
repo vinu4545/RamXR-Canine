@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 486f137ac72fd004c9131b1648f76380, type: 3}
+  m_Name: Cervical_Vertebrae_C1_C7
+  m_EditorClassIdentifier: Assembly-CSharp::ModelPartDataSO
+  id: Cervical_Vertebrae_C1_C7
+  partName: Cervical Vertebrae
+  descriptionChunks:
+  - The cervical vertebrae are a series of seven bones forming the neck region of
+    the canine vertebral column. These vertebrae support the head, protect the spinal
+    cord, and allow extensive flexibility for movements such as bending, rotation,
+    and extension.Specialized structures within the cervical vertebrae
+  - provide attachment points for muscles and ligaments controlling head and neck
+    motion. The first two vertebrae, the atlas and axis, enable a wide range of head
+    mobility important for sensory awareness and balance. Proper alignment and health
+    of the cervical spine are essential for posture and neurological function.

@@ -13,5 +13,12 @@ MonoBehaviour:
   m_Name: Coxal_Bone_Pelvis.002
   m_EditorClassIdentifier: Assembly-CSharp::ModelPartDataSO
   id: Coxal_Bone_Pelvis.002
-  partName: Coxal_Bone_Pelvis.002
-  descriptionChunks: []
+  partName: Coxal Bone Pelvis 002
+  descriptionChunks:
+  - 'The coxal bone forms the pelvic girdle, connecting the hindlimbs to the axial
+    skeleton. It provides strong support for body weight and serves as a major attachment
+    site for muscles involved in locomotion. This structure also protects internal
+    organs within the pelvic cavity. '
+  - Its stable and robust design allows efficient transfer of forces between the
+    spine and hindlimbs. The pelvis plays a critical role in maintaining balance,
+    posture, and coordinated movement during various physical activities.

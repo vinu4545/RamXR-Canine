@@ -13,5 +13,14 @@ MonoBehaviour:
   m_Name: Flexor_carpi_radialis_muscle.L
   m_EditorClassIdentifier: Assembly-CSharp::ModelPartDataSO
   id: Flexor_carpi_radialis_muscle.L
-  partName: Flexor_carpi_radialis_muscle.L
-  descriptionChunks: []
+  partName: Flexor carpi radialis muscle Left
+  descriptionChunks:
+  - The left flexor carpi radialis muscle is located along the medial aspect of the
+    canine forearm and functions primarily to flex the carpal joint. Originating
+    from the medial humerus and inserting onto the metacarpal bones, this muscle
+    contributes to controlled wrist flexion during locomotion and weight-bearing
+    activities.
+  - It also assists in stabilizing the carpus while maintaining proper paw positioning
+    during movement. Coordinated action with surrounding flexor muscles improves
+    balance, stride efficiency, and shock absorption when the forelimb contacts the
+    ground. Proper muscular function is essential for smooth forelimb mechanics.

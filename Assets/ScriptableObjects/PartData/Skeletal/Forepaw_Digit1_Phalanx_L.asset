@@ -13,5 +13,11 @@ MonoBehaviour:
   m_Name: Forepaw_Digit1_Phalanx_L
   m_EditorClassIdentifier: Assembly-CSharp::ModelPartDataSO
   id: Forepaw_Digit1_Phalanx_L
-  partName: Forepaw_Digit1_Phalanx_L
-  descriptionChunks: []
+  partName: Forepaw Digit1 Phalanx Left
+  descriptionChunks:
+  - 'The left forepaw digit one phalanx, commonly referred to as the dewclaw, is
+    the most medial digit of the canine forepaw. Comprising proximal and distal phalangeal
+    bones, it has limited ground contact compared to other digits. '
+  - 'It assists in gripping surfaces, stabilizing objects during manipulation, and
+    providing additional traction during sharp directional changes. Supporting ligaments
+    and tendons maintain its structural integrity. '

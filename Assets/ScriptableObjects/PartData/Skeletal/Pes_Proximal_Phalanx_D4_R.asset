@@ -13,5 +13,14 @@ MonoBehaviour:
   m_Name: Pes_Proximal_Phalanx_D4_R
   m_EditorClassIdentifier: Assembly-CSharp::ModelPartDataSO
   id: Pes_Proximal_Phalanx_D4_R
-  partName: Pes_Proximal_Phalanx_D4_R
-  descriptionChunks: []
+  partName: Pes Proximal Phalanx D4 Right
+  descriptionChunks:
+  - The right proximal phalanx of the fourth hind digit forms the initial phalangeal
+    segment connecting the fourth metatarsal to the middle phalanx. This structure
+    contributes to flexibility, digital stability, and proper hindpaw alignment during
+    locomotion. Tendons and ligaments associated with the bone control toe movement
+    while supporting traction
+  - and coordinated paw placement. The fourth digit assists with maintaining balance
+    and distributing forces generated during walking, running, and jumping activities.
+    Healthy structural alignment is essential for efficient hindlimb movement and
+    stable gait mechanics.

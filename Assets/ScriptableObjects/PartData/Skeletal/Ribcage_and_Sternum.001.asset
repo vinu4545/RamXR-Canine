@@ -13,5 +13,13 @@ MonoBehaviour:
   m_Name: Ribcage_and_Sternum.001
   m_EditorClassIdentifier: Assembly-CSharp::ModelPartDataSO
   id: Ribcage_and_Sternum.001
-  partName: Ribcage_and_Sternum.001
-  descriptionChunks: []
+  partName: Ribcage and Sternum 001
+  descriptionChunks:
+  - The ribcage and sternum form the protective thoracic framework surrounding the
+    canine heart, lungs, and major blood vessels. The ribs articulate with the thoracic
+    vertebrae and connect ventrally to the sternum through costal cartilage, creating
+    a flexible yet supportive cage.
+  - This structure protects vital organs while allowing expansion and contraction
+    during breathing. Muscles attached to the ribs and sternum contribute to respiration,
+    posture, and forelimb movement. The thoracic cage also assists with shock absorption
+    during locomotion.

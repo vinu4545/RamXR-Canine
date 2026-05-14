@@ -13,5 +13,13 @@ MonoBehaviour:
   m_Name: Forepaw_Digit4_Phalanx_L
   m_EditorClassIdentifier: Assembly-CSharp::ModelPartDataSO
   id: Forepaw_Digit4_Phalanx_L
-  partName: Forepaw_Digit4_Phalanx_L
-  descriptionChunks: []
+  partName: Forepaw Digit4 Phalanx Left
+  descriptionChunks:
+  - The left forepaw digit four phalanx is a skeletal component of the fourth toe
+    located within the canine left forepaw. This structure supports controlled movement
+    of the digit while contributing to balance, stability, and proper weight distribution
+    during locomotion.
+  - Muscles, tendons, and ligaments attached to the phalanx enable coordinated flexion
+    and extension necessary for accurate paw placement and traction. The fourth digit
+    also assists with shock absorption and maintenance of stable ground contact during
+    walking and running activities.

@@ -13,5 +13,13 @@ MonoBehaviour:
   m_Name: External_abdominal_oblique_muscle.R
   m_EditorClassIdentifier: Assembly-CSharp::ModelPartDataSO
   id: External_abdominal_oblique_muscle.R
-  partName: External_abdominal_oblique_muscle.R
-  descriptionChunks: []
+  partName: External abdominal oblique muscle Right
+  descriptionChunks:
+  - 'The right external abdominal oblique muscle forms part of the superficial abdominal
+    wall and extends along the lateral side of the canine trunk. It originates from
+    the caudal ribs and thoracolumbar fascia before attaching to the abdominal midline
+    and pelvis. This muscle assists in trunk flexion, bending , and rotational movements '
+  - and rotational movements while stabilizing the body during walking, running,
+    and jumping. It also compresses the abdominal cavity, supporting internal organs
+    and aiding forceful expiration during respiration. Working together with other
+    abdominal muscles, it contributes significantly to posture and core strength.

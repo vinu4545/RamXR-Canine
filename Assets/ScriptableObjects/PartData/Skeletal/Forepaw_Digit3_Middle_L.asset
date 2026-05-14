@@ -13,5 +13,12 @@ MonoBehaviour:
   m_Name: Forepaw_Digit3_Middle_L
   m_EditorClassIdentifier: Assembly-CSharp::ModelPartDataSO
   id: Forepaw_Digit3_Middle_L
-  partName: Forepaw_Digit3_Middle_L
-  descriptionChunks: []
+  partName: Forepaw Digit3 Middle Left
+  descriptionChunks:
+  - The left forepaw digit three middle phalanx forms the central segment of the
+    third toe within the canine forepaw and supports coordinated digital movement.
+    Positioned between the proximal and distal phalanges, it contributes to flexibility,
+    stability, and controlled weight distribution during locomotion.
+  - Tendons and ligaments attached to this bone enable smooth toe flexion and extension
+    necessary for balanced movement and traction. The third digit plays a major role
+    in supporting body weight and maintaining stable paw contact with the ground.

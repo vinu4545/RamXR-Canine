@@ -13,5 +13,12 @@ MonoBehaviour:
   m_Name: Forepaw_Digit3_Proximal_L
   m_EditorClassIdentifier: Assembly-CSharp::ModelPartDataSO
   id: Forepaw_Digit3_Proximal_L
-  partName: Forepaw_Digit3_Proximal_L
-  descriptionChunks: []
+  partName: Forepaw Digit3 Proximal Left
+  descriptionChunks:
+  - The left forepaw digit three proximal phalanx is the first bone of the third
+    digit located between the metacarpal and middle phalanx within the canine forepaw.
+    This structure supports controlled toe movement and contributes significantly
+    to balance and weight-bearing during locomotion.
+  - Attached tendons and ligaments enable flexion, extension, and stabilization of
+    the digit while maintaining proper paw mechanics. The third digit is particularly
+    important for supporting body weight during walking, running, and jumping activities.

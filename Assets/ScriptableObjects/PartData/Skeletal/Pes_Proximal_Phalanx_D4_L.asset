@@ -13,5 +13,13 @@ MonoBehaviour:
   m_Name: Pes_Proximal_Phalanx_D4_L
   m_EditorClassIdentifier: Assembly-CSharp::ModelPartDataSO
   id: Pes_Proximal_Phalanx_D4_L
-  partName: Pes_Proximal_Phalanx_D4_L
-  descriptionChunks: []
+  partName: Pes Proximal Phalanx D4 Left
+  descriptionChunks:
+  - The left proximal phalanx of the fourth hind digit is positioned between the
+    metatarsal and middle phalanx within the canine hindpaw. It contributes to toe
+    flexibility, balanced locomotion, and controlled movement during weight-bearing
+    activities. Ligaments and tendons attached to the bone enable flexion
+  - and extension of the digit while stabilizing the hindpaw during ground contact.
+    The fourth digit also assists with traction and shock distribution throughout
+    the limb during movement. Proper alignment and integrity of this phalanx are
+    essential for smooth gait patterns and coordinated locomotion.

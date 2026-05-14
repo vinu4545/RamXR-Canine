@@ -13,5 +13,13 @@ MonoBehaviour:
   m_Name: Sacroiliac_Joint
   m_EditorClassIdentifier: Assembly-CSharp::ModelPartDataSO
   id: Sacroiliac_Joint
-  partName: Sacroiliac_Joint
-  descriptionChunks: []
+  partName: Sacroiliac Joint
+  descriptionChunks:
+  - The sacroiliac joint is the articulation between the sacrum and ilium of the
+    canine pelvis, forming a strong connection between the spine and hindlimbs. It
+    transfers body weight from the vertebral column to the pelvic limbs during standing
+    and locomotion.
+  - Supported by powerful ligaments and surrounding musculature, it provides stability
+    while allowing limited movement for efficient gait. It also absorbs mechanical
+    stress during jumping. Injury or instability may cause pain, weakness, reduced
+    mobility, and impaired hindlimb locomotor performance.

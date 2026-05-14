@@ -13,5 +13,13 @@ MonoBehaviour:
   m_Name: Ulna_L
   m_EditorClassIdentifier: Assembly-CSharp::ModelPartDataSO
   id: Ulna_L
-  partName: Ulna_L
-  descriptionChunks: []
+  partName: Ulna Left
+  descriptionChunks:
+  - The left ulna is located along the lateral aspect of the canine left forearm
+    and works together with the radius to support forelimb movement and stability.
+    It extends from the elbow joint to the carpal region and contains the olecranon
+    process, which acts as a lever for muscles controlling elbow extension.
+  - The ulna contributes to joint alignment, muscular attachment, and stabilization
+    during weight-bearing activities. Although less involved in direct weight support
+    than the radius, it remains essential for coordinated locomotion and efficient
+    limb mechanics.

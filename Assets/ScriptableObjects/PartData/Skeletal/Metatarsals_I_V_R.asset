@@ -13,5 +13,12 @@ MonoBehaviour:
   m_Name: Metatarsals_I_V_R
   m_EditorClassIdentifier: Assembly-CSharp::ModelPartDataSO
   id: Metatarsals_I_V_R
-  partName: Metatarsals_I_V_R
-  descriptionChunks: []
+  partName: Metatarsals IV Right
+  descriptionChunks:
+  - The right fourth metatarsal is a long bone located within the canine hindpaw
+    between the tarsal bones and the phalanges of the fourth digit. It supports body
+    weight, maintains paw alignment, and contributes to coordinated locomotion during
+    walking and running.
+  - Tendons and ligaments attached to this bone control digital movement and stabilize
+    the hindpaw during ground contact. The fourth metatarsal also assists with shock
+    absorption and force distribution throughout the limb.

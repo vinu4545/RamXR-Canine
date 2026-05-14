@@ -13,5 +13,14 @@ MonoBehaviour:
   m_Name: Extensor_digitorum_digitalis_lateralis_muscle.R
   m_EditorClassIdentifier: Assembly-CSharp::ModelPartDataSO
   id: Extensor_digitorum_digitalis_lateralis_muscle.R
-  partName: Extensor_digitorum_digitalis_lateralis_muscle.R
-  descriptionChunks: []
+  partName: Extensor digitorum digitalis lateralis muscle Right
+  descriptionChunks:
+  - The right extensor digitorum lateralis muscle occupies the lateral region of
+    the canine forearm and functions primarily to extend the outer digits of the
+    paw. It originates from the humerus and extends distally toward the phalanges,
+    enabling controlled toe extension during locomotion.
+  - This muscle contributes to balanced paw placement, coordination, and forelimb
+    stability while walking, running, or changing direction. By assisting with digital
+    extension, it helps maintain proper limb mechanics and prevents abnormal paw
+    posture during movement. The muscle operates in conjunction with neighboring
+    extensors to support smooth gait patterns.

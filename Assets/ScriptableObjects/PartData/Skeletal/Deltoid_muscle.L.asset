@@ -13,5 +13,14 @@ MonoBehaviour:
   m_Name: Deltoid_muscle.L
   m_EditorClassIdentifier: Assembly-CSharp::ModelPartDataSO
   id: Deltoid_muscle.L
-  partName: Deltoid_muscle.L
-  descriptionChunks: []
+  partName: Deltoid muscle Left
+  descriptionChunks:
+  - The left deltoid muscle is located over the lateral aspect of the canine shoulder
+    joint and consists of multiple portions working together to control forelimb
+    movement. Originating from the scapular spine and acromion, it inserts onto the
+    humerus and primarily functions to flex the shoulder joint.
+  - The muscle also assists with stabilizing the shoulder during locomotion and weight-bearing
+    activities. Its coordinated contractions contribute to smooth limb advancement,
+    turning, and controlled positioning of the forelimb during movement. The deltoid
+    works alongside surrounding shoulder muscles to maintain joint integrity and
+    flexibility.

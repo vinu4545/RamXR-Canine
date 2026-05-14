@@ -13,5 +13,13 @@ MonoBehaviour:
   m_Name: Forepaw_Digit4_Phalanx_R
   m_EditorClassIdentifier: Assembly-CSharp::ModelPartDataSO
   id: Forepaw_Digit4_Phalanx_R
-  partName: Forepaw_Digit4_Phalanx_R
-  descriptionChunks: []
+  partName: Forepaw Digit4 Phalanx Right
+  descriptionChunks:
+  - The right forepaw digit four phalanx forms part of the skeletal structure of
+    the fourth digit within the canine forepaw. This bone contributes to toe flexibility,
+    stability, and coordinated paw movement during locomotion and weight-bearing
+    activities.
+  - Tendons and ligaments attached to the phalanx control flexion and extension of
+    the digit while maintaining proper alignment during walking and running. The
+    fourth digit assists with traction, balance, and distribution of mechanical forces
+    across the paw.

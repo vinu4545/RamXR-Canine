@@ -13,5 +13,16 @@ MonoBehaviour:
   m_Name: Pes_Middle_Phalanx_D5_R
   m_EditorClassIdentifier: Assembly-CSharp::ModelPartDataSO
   id: Pes_Middle_Phalanx_D5_R
-  partName: Pes_Middle_Phalanx_D5_R
-  descriptionChunks: []
+  partName: Pes Middle Phalanx D5 Right
+  descriptionChunks:
+  - The right middle phalanx of the fifth hind digit forms the intermediate skeletal
+    segment between the proximal and distal phalanges of the canine toe. This bone
+    contributes to flexibility, controlled toe movement, and balanced hindpaw mechanics
+    during locomotion. Tendons and ligaments attached to the phalanx allow coordinated
+    flexion and extension
+  - while supporting traction and stability on different surfaces. The fifth digit
+    assists with distributing forces across the hindpaw during walking and running
+    activities. Proper structural integrity is important for smooth digital motion
+    and efficient locomotion. Injury or abnormalities affecting this phalanx may
+    impair toe coordination, reduce stability, and compromise hindpaw function significantly
+    in dogs.

@@ -13,5 +13,15 @@ MonoBehaviour:
   m_Name: Pes_Proximal_Phalanx_D3_L
   m_EditorClassIdentifier: Assembly-CSharp::ModelPartDataSO
   id: Pes_Proximal_Phalanx_D3_L
-  partName: Pes_Proximal_Phalanx_D3_L
-  descriptionChunks: []
+  partName: Pes Proximal Phalanx D3 Left
+  descriptionChunks:
+  - The left proximal phalanx of the third hind digit is located between the metatarsal
+    and middle phalanx within the canine hindpaw. This bone supports coordinated
+    toe movement and contributes to balanced weight distribution during locomotion.
+    Tendons and ligaments attached to the proximal phalanx enable controlled flexion
+    and extension while
+  - stabilizing the digit during movement. The third digit plays an important role
+    in traction, balance, and propulsion during walking and running activities. Proper
+    structural integrity is necessary for smooth hindpaw mechanics and coordinated
+    gait patterns. Injury or abnormalities affecting this phalanx may impair movement
+    efficiency and reduce overall hindlimb stability significantly.

@@ -13,5 +13,13 @@ MonoBehaviour:
   m_Name: External_layer_of_sheat_of_recti_abdominis
   m_EditorClassIdentifier: Assembly-CSharp::ModelPartDataSO
   id: External_layer_of_sheat_of_recti_abdominis
-  partName: External_layer_of_sheat_of_recti_abdominis
-  descriptionChunks: []
+  partName: External layer of sheat of recti abdominis
+  descriptionChunks:
+  - 'The external layer of the rectus abdominis sheath is a fibrous connective tissue
+    structure encasing the rectus abdominis muscle along the ventral abdominal wall.
+    Formed by aponeuroses of the external and internal abdominal oblique muscles,it
+    provides structural support '
+  - and maintains abdominal wall integrity. This sheath protects underlying musculature
+    while facilitating force transmission during trunk flexion, respiration, and
+    postural stabilization. Weakness or disruption can compromise abdominal wall
+    strength, predisposing the animal to herniation or instability.

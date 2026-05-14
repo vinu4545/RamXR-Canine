@@ -13,5 +13,14 @@ MonoBehaviour:
   m_Name: External_abdominal_oblique_muscle.L
   m_EditorClassIdentifier: Assembly-CSharp::ModelPartDataSO
   id: External_abdominal_oblique_muscle.L
-  partName: External_abdominal_oblique_muscle.L
-  descriptionChunks: []
+  partName: External abdominal oblique muscle Left
+  descriptionChunks:
+  - The left external abdominal oblique muscle is a broad superficial muscle covering
+    the lateral abdominal wall of the canine body. Originating from the ribs and
+    thoracolumbar fascia, it inserts onto the abdominal midline and pelvic structures.
+    This muscle supports trunk movement by assisting in spinal flexion, lateral bending,
+    and rotation during locomotion.
+  - It also plays an important role in abdominal compression, helping support internal
+    organs and contributing to breathing mechanics during forceful respiration. Coordinated
+    contractions stabilize the trunk and improve balance during movement and posture
+    changes.

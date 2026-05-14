@@ -13,5 +13,12 @@ MonoBehaviour:
   m_Name: Forepaw_Digit3_Middle_R
   m_EditorClassIdentifier: Assembly-CSharp::ModelPartDataSO
   id: Forepaw_Digit3_Middle_R
-  partName: Forepaw_Digit3_Middle_R
-  descriptionChunks: []
+  partName: Forepaw Digit3 Middle Right
+  descriptionChunks:
+  - The right forepaw digit three middle phalanx is the intermediate bone of the
+    third digit positioned between the proximal and distal phalanges. It contributes
+    to flexibility, strength, and coordinated movement of the canine toe during locomotion.
+  - This bone functions within a system of joints, tendons, and ligaments that allow
+    controlled flexion and extension while supporting weight-bearing activities.
+    The third digit is heavily involved in balance, traction, and shock absorption
+    during walking and running.

@@ -14,4 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ModelPartDataSO
   id: Sacrum
   partName: Sacrum
-  descriptionChunks: []
+  descriptionChunks:
+  - 'The sacrum is a triangular bone formed by fused vertebrae located at the base
+    of the canine spine between the pelvis and lumbar vertebrae. It connects the
+    vertebral column to the pelvic girdle through the sacroiliac joints,supporting
+    weight transfer during locomotion. '
+  - The sacrum protects nerves entering the pelvic region and serves as an attachment
+    site for muscles controlling hindlimb movement. Injury, instability, or degeneration
+    may impair locomotion, reduce pelvic stability, and compromise neurological and
+    musculoskeletal function significantly.

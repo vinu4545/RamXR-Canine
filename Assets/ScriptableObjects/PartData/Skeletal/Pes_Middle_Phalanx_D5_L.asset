@@ -13,5 +13,14 @@ MonoBehaviour:
   m_Name: Pes_Middle_Phalanx_D5_L
   m_EditorClassIdentifier: Assembly-CSharp::ModelPartDataSO
   id: Pes_Middle_Phalanx_D5_L
-  partName: Pes_Middle_Phalanx_D5_L
-  descriptionChunks: []
+  partName: Pes Middle Phalanx D5 Left
+  descriptionChunks:
+  - The left middle phalanx of the fifth hind digit is positioned between the proximal
+    and distal phalanges within the canine hindpaw. This structure supports flexibility,
+    toe stability, and coordinated movement during locomotion and weight-bearing
+    activities. Tendons and ligaments associated with the phalanx enable controlled
+    digital flexion and extension
+  - while maintaining balanced paw mechanics. The fifth digit contributes to traction,
+    maneuverability, and distribution of mechanical forces across the hindpaw. Proper
+    alignment and structural health are essential for efficient movement and stable
+    gait patterns.

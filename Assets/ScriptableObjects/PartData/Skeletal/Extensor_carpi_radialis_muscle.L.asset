@@ -13,5 +13,13 @@ MonoBehaviour:
   m_Name: Extensor_carpi_radialis_muscle.L
   m_EditorClassIdentifier: Assembly-CSharp::ModelPartDataSO
   id: Extensor_carpi_radialis_muscle.L
-  partName: Extensor_carpi_radialis_muscle.L
-  descriptionChunks: []
+  partName: Extensor carpi radialis muscle Left
+  descriptionChunks:
+  - The left extensor carpi radialis muscle is located along the cranial portion
+    of the canine forearm and functions primarily to extend the carpal joint. Originating
+    from the lateral humerus and inserting onto the metacarpal bones, this muscle
+    plays a critical role in stabilizing the wrist during weight-bearing and locomotion.
+  - It contributes to smooth forward limb movement by maintaining proper paw positioning
+    during the stance phase of gait. The extensor carpi radialis also assists with
+    shock absorption and coordinated forelimb mechanics during running and jumping
+    activities.

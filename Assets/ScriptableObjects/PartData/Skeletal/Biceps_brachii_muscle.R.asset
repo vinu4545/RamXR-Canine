@@ -13,5 +13,12 @@ MonoBehaviour:
   m_Name: Biceps_brachii_muscle.R
   m_EditorClassIdentifier: Assembly-CSharp::ModelPartDataSO
   id: Biceps_brachii_muscle.R
-  partName: Biceps_brachii_muscle.R
-  descriptionChunks: []
+  partName: Biceps brachii muscle Right
+  descriptionChunks:
+  - 'The biceps brachii muscles are located along the cranial portion of both forelimbs.
+    Originating from the supraglenoid tubercle of the scapula and inserting onto
+    the radius and ulna, they function to flex the elbow and extend the shoulder
+    joint. '
+  - These muscles support forelimb propulsion, posture, and stability during locomotion.
+    Their tendons traverse the shoulder joint, providing additional stabilization.
+    Injury or inflammation can cause weakness, pain, and impaired forelimb performance.

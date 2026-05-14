@@ -13,5 +13,13 @@ MonoBehaviour:
   m_Name: Extensor_digitorum_digitalis_lateralis_muscle.L
   m_EditorClassIdentifier: Assembly-CSharp::ModelPartDataSO
   id: Extensor_digitorum_digitalis_lateralis_muscle.L
-  partName: Extensor_digitorum_digitalis_lateralis_muscle.L
-  descriptionChunks: []
+  partName: Extensor digitorum digitalis lateralis muscle Left
+  descriptionChunks:
+  - The left extensor digitorum lateralis muscle is located on the lateral side of
+    the canine forearm and assists in extending the lateral digits of the paw. Originating
+    from the humerus and inserting onto the distal phalanges, this muscle contributes
+    to coordinated toe extension during locomotion and weight-bearing activities.
+  - It works alongside other extensor muscles to maintain proper paw alignment and
+    improve stride efficiency. The muscle also supports balance and stability during
+    running, turning, and jumping movements by controlling digital positioning. Proper
+    muscular function ensures smooth forelimb mechanics and accurate paw placement.

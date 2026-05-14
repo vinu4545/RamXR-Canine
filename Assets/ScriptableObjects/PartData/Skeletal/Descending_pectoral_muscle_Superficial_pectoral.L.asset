@@ -13,5 +13,14 @@ MonoBehaviour:
   m_Name: Descending_pectoral_muscle_Superficial_pectoral.L
   m_EditorClassIdentifier: Assembly-CSharp::ModelPartDataSO
   id: Descending_pectoral_muscle_Superficial_pectoral.L
-  partName: Descending_pectoral_muscle_Superficial_pectoral.L
-  descriptionChunks: []
+  partName: Descending pectoral muscle Superficial pectoral Left
+  descriptionChunks:
+  - The left descending superficial pectoral muscle is situated along the cranial
+    chest region of the canine body and forms part of the superficial pectoral group.
+    Originating from the sternum and attaching to the humerus, it functions primarily
+    to adduct the forelimb and stabilize the shoulder during movement.
+  - This muscle contributes to maintaining balanced limb positioning and controlled
+    forelimb motion during walking, running, and turning activities. It also assists
+    in drawing the limb inward toward the body while supporting posture and weight-bearing
+    stability. Coordinated action with surrounding chest muscles improves locomotor
+    efficiency.

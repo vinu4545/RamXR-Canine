@@ -13,5 +13,13 @@ MonoBehaviour:
   m_Name: Flexor_carpi_ulnaris_muscle.R
   m_EditorClassIdentifier: Assembly-CSharp::ModelPartDataSO
   id: Flexor_carpi_ulnaris_muscle.R
-  partName: Flexor_carpi_ulnaris_muscle.R
-  descriptionChunks: []
+  partName: Flexor carpi ulnaris muscle right
+  descriptionChunks:
+  - The flexor carpi ulnaris muscles are located along the medial aspect of the canine
+    forelimb, originating from the medial epicondyle of the humerus and olecranon
+    of the ulna. Inserting onto the accessory carpal bone, they primarily function
+    to flex the carpus and stabilize
+  - ' the carpal joint during locomotion. These muscles contribute to controlled
+    paw placement, weight-bearing, and forelimb mechanics. Injury or inflammation
+    can restrict carpal flexibility, cause discomfort, and reduce overall forelimb
+    performance.'

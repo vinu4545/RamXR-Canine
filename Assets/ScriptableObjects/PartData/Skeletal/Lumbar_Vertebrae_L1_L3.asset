@@ -13,5 +13,13 @@ MonoBehaviour:
   m_Name: Lumbar_Vertebrae_L1_L3
   m_EditorClassIdentifier: Assembly-CSharp::ModelPartDataSO
   id: Lumbar_Vertebrae_L1_L3
-  partName: Lumbar_Vertebrae_L1_L3
-  descriptionChunks: []
+  partName: Lumbar Vertebrae L1 L3
+  descriptionChunks:
+  - The lumbar vertebrae L1 through L3 form the cranial portion of the canine lower
+    back and contribute significantly to spinal flexibility and support. These vertebrae
+    bear substantial body weight while protecting the spinal cord and associated
+    nerves. Their large vertebral bodies and processes provide attachment sites
+  - for powerful trunk and hindlimb muscles involved in posture and locomotion. The
+    lumbar region allows controlled bending and extension during movement while maintaining
+    spinal stability. Proper alignment and muscular support are essential for efficient
+    transmission of forces between the trunk and hindlimbs.

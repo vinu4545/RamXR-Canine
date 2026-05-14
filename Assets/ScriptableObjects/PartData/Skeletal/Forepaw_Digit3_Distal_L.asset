@@ -13,5 +13,13 @@ MonoBehaviour:
   m_Name: Forepaw_Digit3_Distal_L
   m_EditorClassIdentifier: Assembly-CSharp::ModelPartDataSO
   id: Forepaw_Digit3_Distal_L
-  partName: Forepaw_Digit3_Distal_L
-  descriptionChunks: []
+  partName: Forepaw Digit3 Distal Left
+  descriptionChunks:
+  - The left forepaw digit three distal phalanx forms the terminal portion of the
+    third digit within the canine forepaw and supports the claw structure. This bone
+    plays an important role in traction, grip, and coordinated toe movement during
+    locomotion and interaction with surfaces.
+  - Tendons attached to the distal phalanx control digital flexion and extension
+    while maintaining balanced paw mechanics. The bone also protects soft tissues
+    associated with the claw and contributes to efficient force distribution during
+    movement.

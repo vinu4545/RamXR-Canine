@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 486f137ac72fd004c9131b1648f76380, type: 3}
+  m_Name: Scapula_L
+  m_EditorClassIdentifier: Assembly-CSharp::ModelPartDataSO
+  id: Scapula_L
+  partName: Scapula Left
+  descriptionChunks:
+  - The left scapula is the shoulder blade located on the left side of the canine
+    thorax and serves as an important skeletal structure for forelimb movement. This
+    flat triangular bone provides attachment surfaces for numerous muscles responsible
+    for shoulder stabilization, limb advancement, and posture maintenance.
+  - It articulates with the humerus to form the shoulder joint while remaining connected
+    to the trunk primarily through muscular support. The scapula contributes significantly
+    to flexibility, shock absorption, and coordinated locomotion during walking and
+    running.

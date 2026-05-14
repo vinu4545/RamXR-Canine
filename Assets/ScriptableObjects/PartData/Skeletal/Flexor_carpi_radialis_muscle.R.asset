@@ -13,5 +13,14 @@ MonoBehaviour:
   m_Name: Flexor_carpi_radialis_muscle.R
   m_EditorClassIdentifier: Assembly-CSharp::ModelPartDataSO
   id: Flexor_carpi_radialis_muscle.R
-  partName: Flexor_carpi_radialis_muscle.R
-  descriptionChunks: []
+  partName: Flexor carpi radialis muscle Right
+  descriptionChunks:
+  - The right flexor carpi radialis muscle occupies the medial region of the canine
+    forearm and serves as an important flexor of the carpal joint. It originates
+    from the humerus and extends distally to attach to the metacarpal area, enabling
+    controlled bending of the wrist during movement.
+  - This muscle contributes to forelimb stability, coordinated paw placement, and
+    efficient weight distribution during walking, running, and jumping activities.
+    Working alongside other forearm flexors, it supports smooth locomotion and shock
+    absorption during ground contact. Proper function is vital for balanced forelimb
+    mechanics.

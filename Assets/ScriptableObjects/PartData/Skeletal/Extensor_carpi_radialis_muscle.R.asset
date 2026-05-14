@@ -13,5 +13,13 @@ MonoBehaviour:
   m_Name: Extensor_carpi_radialis_muscle.R
   m_EditorClassIdentifier: Assembly-CSharp::ModelPartDataSO
   id: Extensor_carpi_radialis_muscle.R
-  partName: Extensor_carpi_radialis_muscle.R
-  descriptionChunks: []
+  partName: Extensor carpi radialis muscle Right
+  descriptionChunks:
+  - The right extensor carpi radialis muscle extends along the front of the canine
+    forearm and serves as a major extensor of the carpal joint. It originates from
+    the humerus and inserts onto the metacarpal region, enabling controlled extension
+    and stabilization of the wrist during movement.
+  - This muscle supports efficient forelimb locomotion by preventing excessive carpal
+    flexion while the limb bears weight. It also contributes to coordinated paw placement,
+    balance, and shock absorption during dynamic activities such as sprinting and
+    jumping.

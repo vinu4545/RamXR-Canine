@@ -13,5 +13,13 @@ MonoBehaviour:
   m_Name: Common_calcaneal_tendon.L
   m_EditorClassIdentifier: Assembly-CSharp::ModelPartDataSO
   id: Common_calcaneal_tendon.L
-  partName: Common_calcaneal_tendon.L
-  descriptionChunks: []
+  partName: Common calcaneal tendon Left
+  descriptionChunks:
+  - The common calcaneal tendons are strong connective structures positioned along
+    the posterior aspect of both hindlimbs, attaching to the calcaneus. Formed by
+    contributions from the gastrocnemius, superficial digital flexor, and biceps
+    femoris, they enable powerful hock extension essential
+  - for walking, running, jumping, and posture maintenance. These tendons also facilitate
+    energy transfer and shock absorption during locomotion. Due to high mechanical
+    stress, structural integrity is critical. Injury or rupture causes severe lameness,
+    instability, and impaired hindlimb performance.

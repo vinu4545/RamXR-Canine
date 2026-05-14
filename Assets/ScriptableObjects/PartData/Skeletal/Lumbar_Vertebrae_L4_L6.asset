@@ -13,5 +13,13 @@ MonoBehaviour:
   m_Name: Lumbar_Vertebrae_L4_L6
   m_EditorClassIdentifier: Assembly-CSharp::ModelPartDataSO
   id: Lumbar_Vertebrae_L4_L6
-  partName: Lumbar_Vertebrae_L4_L6
-  descriptionChunks: []
+  partName: Lumbar Vertebrae L4 L6
+  descriptionChunks:
+  - The lumbar vertebrae L4 through L6 form the middle to caudal section of the canine
+    lumbar spine and support significant mechanical loads during movement. These
+    vertebrae provide flexibility for bending and extension while maintaining stability
+    of the lower back. Their robust structure serves as an attachment site
+  - for major muscles controlling trunk motion and hindlimb propulsion. The lumbar
+    vertebrae also protect spinal nerves responsible for sensory and motor function
+    within the pelvic limbs. Efficient locomotion depends on healthy alignment and
+    coordinated muscular support within this region.

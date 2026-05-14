@@ -13,5 +13,14 @@ MonoBehaviour:
   m_Name: Cervicoscutular_muscle.R
   m_EditorClassIdentifier: Assembly-CSharp::ModelPartDataSO
   id: Cervicoscutular_muscle.R
-  partName: Cervicoscutular_muscle.R
-  descriptionChunks: []
+  partName: Cervicoscutular muscle Right
+  descriptionChunks:
+  - The right cervicoscutular muscle Right is positioned within the superficial cervical
+    region of the canine anatomy and connects skin structures around the neck and
+    shoulder. Its primary function involves moving and tightening the skin in response
+    to muscular activity or environmental stimulation.
+  - This muscle assists with subtle reflexive movements that help protect the body
+    from irritants, insects, and sudden tactile sensations. Working alongside adjacent
+    cutaneous muscles, it contributes to coordinated skin mobility and communication-related
+    body language. Despite its delicate structure, the cervicoscutular muscle supports
+    normal skin flexibility and responsiveness.

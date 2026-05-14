@@ -13,5 +13,15 @@ MonoBehaviour:
   m_Name: Pes_Middle_Phalanx_D1_L
   m_EditorClassIdentifier: Assembly-CSharp::ModelPartDataSO
   id: Pes_Middle_Phalanx_D1_L
-  partName: Pes_Middle_Phalanx_D1_L
-  descriptionChunks: []
+  partName: Pes Middle Phalanx D1 Left
+  descriptionChunks:
+  - The left middle phalanx of the first hind digit is located between the proximal
+    and distal phalanges within the canine hindpaw. This bone supports controlled
+    movement and flexibility of the toe during walking, running, and balance-related
+    activities. Tendons and ligaments attached to the phalanx enable coordinated
+    digital motion while maintaining
+  - stable paw positioning during locomotion. The first digit contributes modestly
+    to traction and maneuverability on uneven surfaces. Proper structural alignment
+    and integrity are essential for efficient toe mechanics and smooth hindpaw function.
+    Injury, fracture, or degeneration affecting this bone may impair digital coordination
+    and reduce overall locomotor stability in dogs.

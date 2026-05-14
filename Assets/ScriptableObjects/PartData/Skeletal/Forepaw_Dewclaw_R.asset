@@ -13,5 +13,12 @@ MonoBehaviour:
   m_Name: Forepaw_Dewclaw_R
   m_EditorClassIdentifier: Assembly-CSharp::ModelPartDataSO
   id: Forepaw_Dewclaw_R
-  partName: Forepaw_Dewclaw_R
-  descriptionChunks: []
+  partName: Forepaw Dewclaw Right
+  descriptionChunks:
+  - The right forepaw dewclaw is a reduced digit positioned higher on the inner side
+    of the canine forelimb. Although it may not contact the ground during normal
+    locomotion, the dewclaw contributes to stability, traction, and grip during rapid
+    turns, climbing, or grasping movements.
+  - Tendons and ligaments associated with the dewclaw allow limited motion and provide
+    additional support to the carpal region during dynamic activities. The claw also
+    assists in holding objects and maintaining balance on uneven terrain.

@@ -13,5 +13,13 @@ MonoBehaviour:
   m_Name: Biceps_femoris_muscle.R
   m_EditorClassIdentifier: Assembly-CSharp::ModelPartDataSO
   id: Biceps_femoris_muscle.R
-  partName: Biceps_femoris_muscle.R
-  descriptionChunks: []
+  partName: Biceps femoris muscle Right
+  descriptionChunks:
+  - 'The biceps femoris muscles occupy the lateral region of both hindlimbs, originating
+    from the pelvis and sacrotuberous ligament. They insert across multiple structures
+    including the patella, tibia, and calcaneal tendon. '
+  - These powerful muscles contribute to hip extension, stifle flexion or extension,
+    and hock extension during locomotion. They generate propulsive force essential
+    for walking, running, and jumping while stabilizing surrounding joints. Injury
+    or strain can impair coordination, reduce strength, and decrease overall movement
+    efficiency.

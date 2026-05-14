@@ -13,5 +13,12 @@ MonoBehaviour:
   m_Name: Forepaw_Digit2_Phalanx_R
   m_EditorClassIdentifier: Assembly-CSharp::ModelPartDataSO
   id: Forepaw_Digit2_Phalanx_R
-  partName: Forepaw_Digit2_Phalanx_R
-  descriptionChunks: []
+  partName: Forepaw Digit2 Phalanx Right
+  descriptionChunks:
+  - The right forepaw digit two phalanx is a skeletal bone forming part of the second
+    digit within the canine forepaw. This structure supports toe movement, stability,
+    and proper paw mechanics during locomotion.
+  - Tendons and ligaments attached to the phalanx enable controlled flexion and extension
+    necessary for balanced movement and weight distribution. The digit contributes
+    to traction, coordination, and shock absorption while the paw contacts the ground
+    during walking or running.

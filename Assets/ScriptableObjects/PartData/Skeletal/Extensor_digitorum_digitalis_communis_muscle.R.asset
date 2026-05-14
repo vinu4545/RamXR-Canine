@@ -13,5 +13,13 @@ MonoBehaviour:
   m_Name: Extensor_digitorum_digitalis_communis_muscle.R
   m_EditorClassIdentifier: Assembly-CSharp::ModelPartDataSO
   id: Extensor_digitorum_digitalis_communis_muscle.R
-  partName: Extensor_digitorum_digitalis_communis_muscle.R
-  descriptionChunks: []
+  partName: Extensor digitorum digitalis communis muscle Right
+  descriptionChunks:
+  - The right extensor digitorum communis muscle extends along the front of the canine
+    forearm and serves as a major extensor of the digits and wrist. It originates
+    from the humerus and inserts onto the distal phalanges of several toes, allowing
+    coordinated extension during locomotion.
+  - This muscle is important for proper paw positioning, balance, and stride formation
+    while the dog walks or runs. By stabilizing the digits during movement, it helps
+    prevent excessive flexion and improves locomotor precision. The muscle also contributes
+    to efficient weight transfer across the paw.

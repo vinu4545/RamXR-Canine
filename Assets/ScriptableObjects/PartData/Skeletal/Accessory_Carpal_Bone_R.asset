@@ -13,5 +13,12 @@ MonoBehaviour:
   m_Name: Accessory_Carpal_Bone_R
   m_EditorClassIdentifier: Assembly-CSharp::ModelPartDataSO
   id: Accessory_Carpal_Bone_R
-  partName: Accessory_Carpal_Bone_R
-  descriptionChunks: []
+  partName: Accessory Carpal Bone Right
+  descriptionChunks:
+  - The Accessory Carpal Bone Right is a prominent projection on the caudal side
+    of the carpal joint, serving as an attachment point for ligaments and tendons.
+    It plays a critical role in stabilizing the wrist during weight-bearing and locomotion.
+  - ' This bone helps resist excessive flexion and supports controlled movement of
+    the forelimb. Its structural positioning allows efficient force transmission
+    during running and jumping, contributing to overall limb strength, joint stability,
+    and coordinated forelimb function.'

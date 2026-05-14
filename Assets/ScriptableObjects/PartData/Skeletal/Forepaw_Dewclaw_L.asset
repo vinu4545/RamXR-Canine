@@ -13,5 +13,13 @@ MonoBehaviour:
   m_Name: Forepaw_Dewclaw_L
   m_EditorClassIdentifier: Assembly-CSharp::ModelPartDataSO
   id: Forepaw_Dewclaw_L
-  partName: Forepaw_Dewclaw_L
-  descriptionChunks: []
+  partName: Forepaw Dewclaw Left
+  descriptionChunks:
+  - 'The left forepaw dewclaw is a specialized digit located on the medial side of
+    the canine forelimb above the main paw. This structure provides additional stability
+    and traction during activities involving turning, climbing, or navigating uneven
+    surfaces.The dewclaw contains bones, tendons, ligaments,  '
+  - and a claw that contribute to limited movement and supportive function. It may
+    also assist dogs in gripping objects and maintaining balance during rapid directional
+    changes. Although smaller than the primary digits, the dewclaw remains functionally
+    important in many breeds.

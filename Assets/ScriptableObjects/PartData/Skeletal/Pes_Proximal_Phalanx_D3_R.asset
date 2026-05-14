@@ -13,5 +13,13 @@ MonoBehaviour:
   m_Name: Pes_Proximal_Phalanx_D3_R
   m_EditorClassIdentifier: Assembly-CSharp::ModelPartDataSO
   id: Pes_Proximal_Phalanx_D3_R
-  partName: Pes_Proximal_Phalanx_D3_R
-  descriptionChunks: []
+  partName: Pes Proximal Phalanx D3 Right
+  descriptionChunks:
+  - The right proximal phalanx of the third hind digit forms the first phalangeal
+    segment connecting the metatarsal bone to the middle phalanx. This structure
+    contributes to flexibility, balance, and coordinated toe movement during locomotion
+    and weight-bearing activities.
+  - Tendons and ligaments attached to the bone allow controlled flexion and extension
+    necessary for stable hindpaw mechanics. The third digit assists significantly
+    with traction and support during walking and running. Proper alignment and structural
+    integrity of the proximal phalanx are essential for efficient movement.

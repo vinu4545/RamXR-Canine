@@ -13,5 +13,13 @@ MonoBehaviour:
   m_Name: Patella_R
   m_EditorClassIdentifier: Assembly-CSharp::ModelPartDataSO
   id: Patella_R
-  partName: Patella_R
-  descriptionChunks: []
+  partName: Patella Right
+  descriptionChunks:
+  - The right patella is a sesamoid bone located within the tendon of the quadriceps
+    muscle at the front of the canine stifle joint. It functions primarily to improve
+    leverage and mechanical efficiency during extension of the hindlimb.The patella
+    also protects the stifle joint and guides movement of  the quadriceps tendon
+    over the femur during locomotion.
+  - Proper alignment of the patella is essential for stable joint mechanics, balanced
+    weight distribution, and efficient hindlimb movement. It plays an important role
+    in walking, running, jumping, and maintaining posture.

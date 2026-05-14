@@ -13,5 +13,13 @@ MonoBehaviour:
   m_Name: Pes_Distal_Phalanx_D4_L
   m_EditorClassIdentifier: Assembly-CSharp::ModelPartDataSO
   id: Pes_Distal_Phalanx_D4_L
-  partName: Pes_Distal_Phalanx_D4_L
-  descriptionChunks: []
+  partName: Pes Distal Phalanx D4 Left
+  descriptionChunks:
+  - The left distal phalanx of the fourth hind digit is the terminal bone supporting
+    the claw within the canine hindpaw. This structure contributes to traction, toe
+    stability, and coordinated locomotion during walking and running activities.
+    Tendons attached to the distal phalanx control digital movement while maintaining
+    proper alignment and balance throughout the hindpaw.
+  - The fourth digit also assists with distributing mechanical forces and maintaining
+    stable ground contact during movement. Proper structural integrity is essential
+    for efficient paw mechanics and locomotor performance.

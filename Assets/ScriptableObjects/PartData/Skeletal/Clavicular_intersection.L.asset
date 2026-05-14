@@ -13,5 +13,14 @@ MonoBehaviour:
   m_Name: Clavicular_intersection.L
   m_EditorClassIdentifier: Assembly-CSharp::ModelPartDataSO
   id: Clavicular_intersection.L
-  partName: Clavicular_intersection.L
-  descriptionChunks: []
+  partName: Clavicular intersection Left
+  descriptionChunks:
+  - The left clavicular intersection represents the anatomical region where clavicular
+    structures and associated connective tissues interact within the canine shoulder
+    area. Although dogs possess a reduced clavicle compared to humans, this region
+    still serves as an important site for muscular attachment and forelimb stabilization.
+  - It contributes to maintaining proper spacing and movement between the scapula
+    and thoracic wall during locomotion. Surrounding muscles and ligaments coordinate
+    through this area to facilitate efficient shoulder mechanics, flexibility, and
+    limb control. Proper structural integrity supports balanced forelimb motion and
+    shock absorption during activity.

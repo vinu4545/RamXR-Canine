@@ -13,5 +13,12 @@ MonoBehaviour:
   m_Name: Thigh_Bone_Femur_R
   m_EditorClassIdentifier: Assembly-CSharp::ModelPartDataSO
   id: Thigh_Bone_Femur_R
-  partName: Thigh_Bone_Femur_R
-  descriptionChunks: []
+  partName: Thigh Bone Femur Right
+  descriptionChunks:
+  - The right femur is the largest and strongest bone of the canine hindlimb, extending
+    from the hip joint to the stifle joint. It supports major weight-bearing functions
+    and serves as an attachment site for powerful muscles controlling locomotion
+    and posture.
+  - The femur articulates with the pelvis proximally and the tibia and patella distally,
+    enabling efficient movement during walking, running, and jumping. Its structure
+    provides stability, leverage, and force transmission necessary for hindlimb propulsion.

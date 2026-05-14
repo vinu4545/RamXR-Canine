@@ -13,5 +13,11 @@ MonoBehaviour:
   m_Name: Radius_R
   m_EditorClassIdentifier: Assembly-CSharp::ModelPartDataSO
   id: Radius_R
-  partName: Radius_R
-  descriptionChunks: []
+  partName: Radius Right
+  descriptionChunks:
+  - The right radius is one of the primary bones of the canine forearm and is positioned
+    along the medial side of the forelimb. It extends from the elbow to the carpal
+    joint and plays a major role in weight-bearing and locomotion.
+  - The radius articulates with the humerus proximally and the carpal bones distally,
+    enabling smooth movement of the forelimb during activity. It also provides attachment
+    points for muscles controlling wrist and paw motion.

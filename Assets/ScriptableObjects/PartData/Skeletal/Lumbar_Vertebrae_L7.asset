@@ -13,5 +13,12 @@ MonoBehaviour:
   m_Name: Lumbar_Vertebrae_L7
   m_EditorClassIdentifier: Assembly-CSharp::ModelPartDataSO
   id: Lumbar_Vertebrae_L7
-  partName: Lumbar_Vertebrae_L7
-  descriptionChunks: []
+  partName: Lumbar Vertebrae L7
+  descriptionChunks:
+  - The lumbar vertebra L7 is the final lumbar vertebra in the canine vertebral column
+    and serves as an important transitional structure between the lumbar spine and
+    sacrum. It supports substantial body weight while allowing controlled spinal
+    flexibility during locomotion and posture changes.
+  - This vertebra provides attachment sites for muscles and ligaments involved in
+    stabilizing the lower back and hindlimbs. The region surrounding L7 contains
+    important spinal nerves contributing to pelvic limb movement and sensory function.

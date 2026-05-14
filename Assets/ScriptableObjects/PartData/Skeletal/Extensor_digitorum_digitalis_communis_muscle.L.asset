@@ -13,5 +13,13 @@ MonoBehaviour:
   m_Name: Extensor_digitorum_digitalis_communis_muscle.L
   m_EditorClassIdentifier: Assembly-CSharp::ModelPartDataSO
   id: Extensor_digitorum_digitalis_communis_muscle.L
-  partName: Extensor_digitorum_digitalis_communis_muscle.L
-  descriptionChunks: []
+  partName: Extensor digitorum digitalis communis muscle Left
+  descriptionChunks:
+  - The left extensor digitorum communis muscle is positioned along the cranial forearm
+    of the canine forelimb and functions primarily to extend the digits and carpal
+    joint. Originating from the lateral epicondyle of the humerus, it travels distally
+    to insert onto the phalanges of multiple digits.
+  - This muscle enables coordinated extension of the toes during locomotion, improving
+    paw placement and stride efficiency. It also contributes to forelimb stability
+    and balance during weight-bearing activities. Proper function is essential for
+    smooth gait mechanics and precise limb control.

@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 486f137ac72fd004c9131b1648f76380, type: 3}
+  m_Name: frontalbone
+  m_EditorClassIdentifier: Assembly-CSharp::ModelPartDataSO
+  id: frontalbone
+  partName: Frontal Bone
+  descriptionChunks:
+  - The frontal bone forms the front portion of the canine skull and contributes
+    to protection of the brain and formation of the orbital cavities. Located between
+    the nasal and parietal bones, it provides structural support for the forehead
+    and upper facial region. This bone contains portions of the frontal sinuses,
+  - which help reduce skull weight and contribute to respiratory resonance. The frontal
+    bone also serves as an attachment site for facial muscles and connective tissues
+    involved in expression and head movement. Strong structural integrity is essential
+    for cranial protection and sensory function.

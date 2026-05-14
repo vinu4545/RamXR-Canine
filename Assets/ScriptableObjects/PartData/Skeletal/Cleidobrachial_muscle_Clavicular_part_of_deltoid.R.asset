@@ -13,5 +13,14 @@ MonoBehaviour:
   m_Name: Cleidobrachial_muscle_Clavicular_part_of_deltoid.R
   m_EditorClassIdentifier: Assembly-CSharp::ModelPartDataSO
   id: Cleidobrachial_muscle_Clavicular_part_of_deltoid.R
-  partName: Cleidobrachial_muscle_Clavicular_part_of_deltoid.R
-  descriptionChunks: []
+  partName: Cleidobrachial muscle Clavicular part of deltoid Right
+  descriptionChunks:
+  - The right cleidobrachial muscle, forming part of the canine deltoid complex,
+    connects the clavicular region to the upper forelimb. Its primary function is
+    to flex the shoulder and advance the limb during movement. This muscle contributes
+    significantly to coordinated forelimb mechanics, allowing efficient stride formation
+    and controlled shoulder positioning.
+  - During activities such as running, turning, and climbing, the cleidobrachial
+    muscle works alongside surrounding shoulder muscles to maintain stability and
+    balanced motion. It also assists in absorbing mechanical stress placed on the
+    shoulder joint during locomotion.

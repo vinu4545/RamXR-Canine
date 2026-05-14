@@ -13,5 +13,12 @@ MonoBehaviour:
   m_Name: Forepaw_Digit3_Distal_R
   m_EditorClassIdentifier: Assembly-CSharp::ModelPartDataSO
   id: Forepaw_Digit3_Distal_R
-  partName: Forepaw_Digit3_Distal_R
-  descriptionChunks: []
+  partName: Forepaw Digit3 Distal Right
+  descriptionChunks:
+  - The right forepaw digit three distal phalanx is the terminal bone of the third
+    digit located at the end of the canine toe. This structure supports the claw
+    and serves as an attachment point for tendons controlling digital movement.
+  - It contributes to traction, digging, gripping, and stability during locomotion
+    and weight-bearing activities. The distal phalanx also protects sensitive tissues
+    within the claw region while supporting proper paw mechanics during walking and
+    running.

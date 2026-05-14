@@ -13,5 +13,12 @@ MonoBehaviour:
   m_Name: Ribcage_and_Sternum.593
   m_EditorClassIdentifier: Assembly-CSharp::ModelPartDataSO
   id: Ribcage_and_Sternum.593
-  partName: Ribcage_and_Sternum.593
-  descriptionChunks: []
+  partName: Ribcage and Sternum 593
+  descriptionChunks:
+  - The ribcage and sternum form a durable protective enclosure around the canine
+    thoracic organs while maintaining flexibility required for respiration. The ribs
+    articulate dorsally with the vertebral column and ventrally with the sternum,
+    creating a stable yet expandable thoracic cage.
+  - This structure supports efficient breathing by allowing chest expansion during
+    inhalation and contraction during exhalation. It also serves as an attachment
+    site for muscles involved in respiration, posture, and forelimb movement.

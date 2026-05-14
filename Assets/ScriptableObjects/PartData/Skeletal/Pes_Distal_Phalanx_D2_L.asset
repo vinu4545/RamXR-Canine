@@ -13,5 +13,15 @@ MonoBehaviour:
   m_Name: Pes_Distal_Phalanx_D2_L
   m_EditorClassIdentifier: Assembly-CSharp::ModelPartDataSO
   id: Pes_Distal_Phalanx_D2_L
-  partName: Pes_Distal_Phalanx_D2_L
-  descriptionChunks: []
+  partName: Pes Distal Phalanx D2 Left
+  descriptionChunks:
+  - The left distal phalanx of the second hind digit is the terminal skeletal segment
+    supporting the claw within the canine hindpaw. It contributes to grip, traction,
+    and stable toe positioning during locomotion and interaction with surfaces. Tendons
+    attached to the distal phalanx control flexion and extension of the digit while
+    maintaining proper hindpaw mechanics.
+  - The bone also protects sensitive structures within the claw region and supports
+    balanced force distribution during movement. Proper structural integrity is essential
+    for coordinated gait and efficient locomotion. Injury, infection, or deformity
+    affecting this phalanx may impair claw stability, reduce mobility, and compromise
+    hindpaw function significantly in dogs.

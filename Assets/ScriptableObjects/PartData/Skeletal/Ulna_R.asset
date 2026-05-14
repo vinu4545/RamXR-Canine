@@ -13,5 +13,12 @@ MonoBehaviour:
   m_Name: Ulna_R
   m_EditorClassIdentifier: Assembly-CSharp::ModelPartDataSO
   id: Ulna_R
-  partName: Ulna_R
-  descriptionChunks: []
+  partName: Ulna Right
+  descriptionChunks:
+  - The right ulna is a long bone positioned along the lateral side of the canine
+    forearm and extends from the elbow to the wrist region. It forms an important
+    part of the elbow joint through the olecranon process,
+  - which serves as the attachment site for the triceps muscle responsible for elbow
+    extension. Although the radius bears most body weight, the ulna contributes significantly
+    to joint stability and forelimb mechanics. It also provides attachment areas
+    for muscles controlling paw and forearm movement.

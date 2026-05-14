@@ -13,5 +13,12 @@ MonoBehaviour:
   m_Name: Forepaw_Digit2_Phalanx_L
   m_EditorClassIdentifier: Assembly-CSharp::ModelPartDataSO
   id: Forepaw_Digit2_Phalanx_L
-  partName: Forepaw_Digit2_Phalanx_L
-  descriptionChunks: []
+  partName: Forepaw Digit2 Phalanx Left
+  descriptionChunks:
+  - The left forepaw digit two phalanx forms part of the second toe within the canine
+    forepaw and contributes significantly to movement and stability. This bone provides
+    attachment points for tendons and ligaments controlling toe flexion and extension
+    during locomotion.
+  - The second digit assists with weight distribution, balance, and coordinated paw
+    placement while the dog walks, runs, or changes direction. It also helps absorb
+    impact forces and maintain traction on various surfaces.

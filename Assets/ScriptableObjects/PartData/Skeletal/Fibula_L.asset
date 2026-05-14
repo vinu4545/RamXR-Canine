@@ -13,5 +13,12 @@ MonoBehaviour:
   m_Name: Fibula_L
   m_EditorClassIdentifier: Assembly-CSharp::ModelPartDataSO
   id: Fibula_L
-  partName: Fibula_L
-  descriptionChunks: []
+  partName: Fibula Left
+  descriptionChunks:
+  - The left fibula is a long, slender bone located along the lateral side of the
+    canine hindlimb beside the tibia. Although it bears less weight than the tibia,
+    the fibula serves as an important attachment site for muscles and ligaments controlling
+    hindlimb movement. It contributes to stabilization of the stifle and hock joints
+  - while supporting coordinated locomotion. The bone also assists in maintaining
+    proper alignment and structural integrity of the lower hindlimb. Muscles associated
+    with the fibula play essential roles in paw movement and balance during activity.

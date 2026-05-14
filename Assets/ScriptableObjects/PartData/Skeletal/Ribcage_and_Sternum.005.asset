@@ -14,4 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ModelPartDataSO
   id: Ribcage_and_Sternum.005
   partName: Ribcage_and_Sternum.005
-  descriptionChunks: []
+  descriptionChunks:
+  - The ribcage and sternum provide structural support and protection for vital thoracic
+    organs including the heart and lungs within the canine body. The ribs connect
+    to the thoracic vertebrae and sternum, forming a flexible cage capable of expanding
+    during respiration.
+  - This arrangement allows efficient breathing while protecting internal organs
+    from external mechanical forces. Muscles associated with the thoracic cage contribute
+    to respiration, trunk stability, and coordinated forelimb movement during locomotion.
+    The ribcage also assists with distributing mechanical stress throughout the trunk.

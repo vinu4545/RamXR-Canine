@@ -13,5 +13,12 @@ MonoBehaviour:
   m_Name: Thigh_Bone_Femur_L
   m_EditorClassIdentifier: Assembly-CSharp::ModelPartDataSO
   id: Thigh_Bone_Femur_L
-  partName: Thigh_Bone_Femur_L
-  descriptionChunks: []
+  partName: Thigh Bone Femur Left
+  descriptionChunks:
+  - The left femur forms the primary skeletal support of the canine left hindlimb
+    and extends between the hip and stifle joints. This powerful bone bears substantial
+    body weight while providing attachment points for muscles responsible for hip
+    movement, stifle control, and hindlimb propulsion.
+  - The femur contributes significantly to stability, balance, and efficient locomotion
+    during running, jumping, and standing activities. Its articulations with the
+    pelvis, tibia, and patella enable coordinated joint motion and force transmission.

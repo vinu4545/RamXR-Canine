@@ -13,5 +13,13 @@ MonoBehaviour:
   m_Name: Metatarsals_I_V_L
   m_EditorClassIdentifier: Assembly-CSharp::ModelPartDataSO
   id: Metatarsals_I_V_L
-  partName: Metatarsals_I_V_L
-  descriptionChunks: []
+  partName: Metatarsals IV Left
+  descriptionChunks:
+  - The left fourth metatarsal forms part of the skeletal framework of the canine
+    left hindpaw and extends between the tarsal region and the fourth digit. This
+    bone supports weight-bearing activities while contributing to balanced paw mechanics
+    and coordinated movement.
+  - Muscles, tendons, and ligaments associated with the metatarsal enable controlled
+    toe motion and stable hindpaw positioning during locomotion. It also plays an
+    important role in shock absorption and efficient transfer of forces generated
+    during movement.

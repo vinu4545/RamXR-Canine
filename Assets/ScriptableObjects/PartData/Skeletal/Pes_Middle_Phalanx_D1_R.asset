@@ -13,5 +13,13 @@ MonoBehaviour:
   m_Name: Pes_Middle_Phalanx_D1_R
   m_EditorClassIdentifier: Assembly-CSharp::ModelPartDataSO
   id: Pes_Middle_Phalanx_D1_R
-  partName: Pes_Middle_Phalanx_D1_R
-  descriptionChunks: []
+  partName: Pes Middle Phalanx D1 Right
+  descriptionChunks:
+  - The right middle phalanx of the first hind digit forms the intermediate segment
+    of the toe between the proximal and distal phalanges. This bone contributes to
+    flexibility, digital movement, and coordinated hindpaw mechanics during locomotion.
+    Tendons and ligaments attached to the middle phalanx allow controlled flexion
+  - and extension necessary for stable toe positioning and balanced movement. Although
+    the first digit bears less weight than central digits, it still assists with
+    traction and maneuverability. Proper structural health is important for smooth
+    toe function and hindpaw coordination.

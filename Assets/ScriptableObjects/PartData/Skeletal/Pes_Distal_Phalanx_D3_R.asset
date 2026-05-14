@@ -13,5 +13,14 @@ MonoBehaviour:
   m_Name: Pes_Distal_Phalanx_D3_R
   m_EditorClassIdentifier: Assembly-CSharp::ModelPartDataSO
   id: Pes_Distal_Phalanx_D3_R
-  partName: Pes_Distal_Phalanx_D3_R
-  descriptionChunks: []
+  partName: Pes Distal Phalanx D3 Right
+  descriptionChunks:
+  - The right distal phalanx of the third hind digit forms the terminal portion of
+    the toe and supports the claw structure within the canine hindpaw. This bone
+    contributes to traction, stability, and coordinated toe movement during locomotion
+    and weight-bearing activities.
+  - Tendons attached to the distal phalanx allow controlled digital flexion and extension
+    while maintaining balanced hindpaw mechanics. The third digit is particularly
+    important for support and propulsion during walking and running. Proper alignment
+    and structural health are necessary for efficient movement and stable ground
+    contact.

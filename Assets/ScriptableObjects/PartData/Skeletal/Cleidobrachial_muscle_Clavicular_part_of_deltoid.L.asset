@@ -13,5 +13,14 @@ MonoBehaviour:
   m_Name: Cleidobrachial_muscle_Clavicular_part_of_deltoid.L
   m_EditorClassIdentifier: Assembly-CSharp::ModelPartDataSO
   id: Cleidobrachial_muscle_Clavicular_part_of_deltoid.L
-  partName: Cleidobrachial_muscle_Clavicular_part_of_deltoid.L
-  descriptionChunks: []
+  partName: Cleidobrachial muscle Clavicular part of deltoid Left
+  descriptionChunks:
+  - The left cleidobrachial muscle, representing the clavicular part of the deltoid
+    group, extends between the clavicular region and the brachium of the canine forelimb.
+    This muscle assists primarily in advancing the limb forward and flexing the shoulder
+    joint during locomotion.
+  - It plays an important role in coordinated forelimb movement, especially during
+    walking, running, and climbing activities requiring controlled shoulder action.
+    The muscle also contributes to shoulder stabilization and helps maintain smooth
+    transitions between limb positions. Working with neighboring muscles, it improves
+    overall forelimb precision and mobility.

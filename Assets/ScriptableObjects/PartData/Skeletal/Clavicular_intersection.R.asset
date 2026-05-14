@@ -13,5 +13,16 @@ MonoBehaviour:
   m_Name: Clavicular_intersection.R
   m_EditorClassIdentifier: Assembly-CSharp::ModelPartDataSO
   id: Clavicular_intersection.R
-  partName: Clavicular_intersection.R
-  descriptionChunks: []
+  partName: Clavicular intersection Right
+  descriptionChunks:
+  - The right clavicular intersection is an anatomical shoulder region associated
+    with remnants of the canine clavicle and surrounding muscular attachments. In
+    dogs, the clavicle is greatly reduced, yet the area remains functionally important
+    for forelimb mechanics and stabilization. This region supports coordinated interaction
+    between the scapula, muscles, and connective tissues responsible for shoulder
+    movement.
+  - It contributes to maintaining proper limb positioning and flexibility during
+    walking, running, and jumping activities. The clavicular intersection also assists
+    with distributing mechanical forces across the shoulder complex. Injury or dysfunction
+    affecting this area can compromise shoulder stability, reduce range of motion,
+    and negatively influence efficient forelimb locomotion and balance.

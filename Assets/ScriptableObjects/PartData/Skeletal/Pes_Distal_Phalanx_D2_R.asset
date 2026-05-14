@@ -13,5 +13,12 @@ MonoBehaviour:
   m_Name: Pes_Distal_Phalanx_D2_R
   m_EditorClassIdentifier: Assembly-CSharp::ModelPartDataSO
   id: Pes_Distal_Phalanx_D2_R
-  partName: Pes_Distal_Phalanx_D2_R
-  descriptionChunks: []
+  partName: Pes Distal Phalanx D2 Right
+  descriptionChunks:
+  - The right distal phalanx of the second hind digit forms the terminal bone supporting
+    the claw within the canine hindpaw. This structure provides attachment points
+    for tendons controlling toe movement and contributes to traction, balance, and
+    coordinated locomotion.
+  - The distal phalanx also protects sensitive tissues associated with the claw while
+    assisting with force distribution during walking and running. Proper alignment
+    and integrity are essential for stable digital mechanics and efficient paw function.

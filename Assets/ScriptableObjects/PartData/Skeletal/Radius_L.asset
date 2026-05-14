@@ -13,5 +13,12 @@ MonoBehaviour:
   m_Name: Radius_L
   m_EditorClassIdentifier: Assembly-CSharp::ModelPartDataSO
   id: Radius_L
-  partName: Radius_L
-  descriptionChunks: []
+  partName: Radius Left
+  descriptionChunks:
+  - The left radius is a long forearm bone located on the medial side of the canine
+    left forelimb and functions as a major weight-bearing structure. It forms joints
+    with the humerus at the elbow and with the carpal bones at the wrist, supporting
+    smooth and coordinated limb movement.
+  - Numerous muscles and ligaments attach to the radius, enabling controlled motion
+    of the paw and carpal region during locomotion. The bone contributes to shock
+    absorption, stability, and force transmission while walking, running, and jumping.

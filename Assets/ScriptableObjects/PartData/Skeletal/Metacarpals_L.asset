@@ -13,5 +13,13 @@ MonoBehaviour:
   m_Name: Metacarpals_L
   m_EditorClassIdentifier: Assembly-CSharp::ModelPartDataSO
   id: Metacarpals_L
-  partName: Metacarpals_L
-  descriptionChunks: []
+  partName: Metacarpals Left
+  descriptionChunks:
+  - 'The left metacarpals form the central skeletal framework of the canine left
+    forepaw and extend between the carpal bones and phalanges. These long bones support
+    the digits while distributing weight and mechanical forces during movement. They
+    contribute significantly to paw stability, balance, and coordinated '
+  - locomotion by maintaining proper alignment of the forepaw during ground contact.
+    Muscles and tendons attached to the metacarpals control digital motion and support
+    efficient stride mechanics. The bones also help absorb impact forces generated
+    during running and jumping activities.

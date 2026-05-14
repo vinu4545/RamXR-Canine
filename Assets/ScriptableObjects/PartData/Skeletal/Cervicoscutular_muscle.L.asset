@@ -13,5 +13,14 @@ MonoBehaviour:
   m_Name: Cervicoscutular_muscle.L
   m_EditorClassIdentifier: Assembly-CSharp::ModelPartDataSO
   id: Cervicoscutular_muscle.L
-  partName: Cervicoscutular_muscle.L
-  descriptionChunks: []
+  partName: Cervicoscutular muscle Left
+  descriptionChunks:
+  - The left cervicoscutular muscle Left is a superficial cutaneous muscle located
+    in the cervical region of the canine body. It extends between the neck and skin
+    structures surrounding the ear and shoulder area. This muscle primarily functions
+    to move and tense the skin during facial, neck, and shoulder movements.
+  - It contributes to subtle skin adjustments that aid communication, protective
+    reflexes, and response to external stimuli such as insects or touch. Although
+    relatively thin, the cervicoscutular muscle participates in coordinated muscular
+    actions involving nearby superficial muscles. Proper function helps maintain
+    skin mobility and flexibility.

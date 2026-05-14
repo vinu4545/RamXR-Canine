@@ -13,5 +13,12 @@ MonoBehaviour:
   m_Name: Pes_Distal_Phalanx_D3_L
   m_EditorClassIdentifier: Assembly-CSharp::ModelPartDataSO
   id: Pes_Distal_Phalanx_D3_L
-  partName: Pes_Distal_Phalanx_D3_L
-  descriptionChunks: []
+  partName: Pes Distal Phalanx D3 Left
+  descriptionChunks:
+  - The left distal phalanx of the third hind digit supports the claw and forms the
+    terminal skeletal component of the canine toe. This structure contributes significantly
+    to traction, stability, and coordinated hindpaw movement during locomotion.
+  - Tendons and ligaments attached to the bone enable controlled toe motion while
+    maintaining balanced paw positioning during ground contact. The distal phalanx
+    also protects soft tissues associated with the claw and assists with force distribution
+    across the hindpaw.

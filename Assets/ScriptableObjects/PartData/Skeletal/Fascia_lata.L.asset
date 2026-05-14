@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Fascia_lata.L
   m_EditorClassIdentifier: Assembly-CSharp::ModelPartDataSO
   id: Fascia_lata.L
-  partName: Fascia_lata.L
+  partName: Fascia lata Left
   descriptionChunks: []

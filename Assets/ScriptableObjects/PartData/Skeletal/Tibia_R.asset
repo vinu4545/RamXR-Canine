@@ -13,5 +13,12 @@ MonoBehaviour:
   m_Name: Tibia_R
   m_EditorClassIdentifier: Assembly-CSharp::ModelPartDataSO
   id: Tibia_R
-  partName: Tibia_R
-  descriptionChunks: []
+  partName: Tibia Right
+  descriptionChunks:
+  - The right tibia is the primary weight-bearing bone of the canine lower hindlimb,
+    extending from the stifle joint to the hock region. It supports body weight during
+    standing, walking, running, and jumping activities while providing attachment
+    sites for important muscles and ligaments controlling hindlimb movement.
+  - The tibia articulates with the femur proximally and the tarsal bones distally,
+    contributing to stable and coordinated locomotion. Its strong structure enables
+    efficient force transmission and shock absorption throughout the hindlimb.

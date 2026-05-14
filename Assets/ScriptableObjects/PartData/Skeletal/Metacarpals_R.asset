@@ -13,5 +13,13 @@ MonoBehaviour:
   m_Name: Metacarpals_R
   m_EditorClassIdentifier: Assembly-CSharp::ModelPartDataSO
   id: Metacarpals_R
-  partName: Metacarpals_R
-  descriptionChunks: []
+  partName: Metacarpals Right
+  descriptionChunks:
+  - The right metacarpals are long bones located between the carpal bones and the
+    phalanges within the canine forepaw. These bones provide structural support for
+    the paw while transmitting forces generated during locomotion and weight-bearing
+    activities. The metacarpals contribute to balance, stability , and proper
+  - paw alignment during walking, running, and jumping. Muscles, tendons, and ligaments
+    attached to these bones enable coordinated movement and controlled positioning
+    of the digits. Their arrangement also assists with shock absorption and efficient
+    force distribution across the paw.

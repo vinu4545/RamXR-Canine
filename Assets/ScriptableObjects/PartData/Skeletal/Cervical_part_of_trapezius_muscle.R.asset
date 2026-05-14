@@ -13,5 +13,14 @@ MonoBehaviour:
   m_Name: Cervical_part_of_trapezius_muscle.R
   m_EditorClassIdentifier: Assembly-CSharp::ModelPartDataSO
   id: Cervical_part_of_trapezius_muscle.R
-  partName: Cervical_part_of_trapezius_muscle.R
-  descriptionChunks: []
+  partName: Cervical part of trapezius muscle Right
+  descriptionChunks:
+  - The right cervical part of the trapezius muscle occupies the upper neck and shoulder
+    region of the canine body and assists in scapular movement. Originating from
+    the cervical midline and inserting onto the scapular spine, it functions to elevate
+    and draw the scapula cranially during limb advancement.
+  - This muscle contributes significantly to posture, shoulder stabilization, and
+    smooth forelimb motion during locomotion. Working with surrounding musculature,
+    it supports coordinated limb mechanics and balanced movement patterns. The cervical
+    trapezius is especially active during activities requiring rapid directional
+    adjustments or climbing.

@@ -13,5 +13,12 @@ MonoBehaviour:
   m_Name: Carpals_R
   m_EditorClassIdentifier: Assembly-CSharp::ModelPartDataSO
   id: Carpals_R
-  partName: Carpals_R
-  descriptionChunks: []
+  partName: Carpals Right
+  descriptionChunks:
+  - 'The carpals Right consist of multiple small bones that form the wrist joint
+    of the forelimb. These bones are arranged in rows and work together to allow
+    flexibility and controlled movement. They play an essential role in absorbing
+    shock and distributing mechanical forces during locomotion. '
+  - By enabling smooth flexion and extension, they support efficient limb motion.
+    Proper alignment of the carpal bones ensures stability, reduces strain on surrounding
+    tissues, and contributes to overall balance and coordinated forelimb performance.

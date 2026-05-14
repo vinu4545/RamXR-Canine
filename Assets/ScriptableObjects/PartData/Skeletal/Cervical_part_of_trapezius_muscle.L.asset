@@ -13,5 +13,14 @@ MonoBehaviour:
   m_Name: Cervical_part_of_trapezius_muscle.L
   m_EditorClassIdentifier: Assembly-CSharp::ModelPartDataSO
   id: Cervical_part_of_trapezius_muscle.L
-  partName: Cervical_part_of_trapezius_muscle.L
-  descriptionChunks: []
+  partName: Cervical part of trapezius muscle Left
+  descriptionChunks:
+  - The left cervical part of the trapezius muscle Left is located along the upper
+    neck and shoulder region of the canine body. Originating from the dorsal midline
+    of the neck and attaching to the scapular spine, this muscle functions primarily
+    to elevate and advance the scapula during forelimb movement.
+  - It contributes to coordinated shoulder motion, posture maintenance, and stabilization
+    of the upper thoracic region during locomotion. The cervical trapezius works
+    closely with adjacent muscles to support smooth limb transitions and directional
+    changes. Its activity is particularly important during walking, running, and
+    climbing movements.

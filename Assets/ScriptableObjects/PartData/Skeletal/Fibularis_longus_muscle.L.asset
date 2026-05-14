@@ -13,5 +13,13 @@ MonoBehaviour:
   m_Name: Fibularis_longus_muscle.L
   m_EditorClassIdentifier: Assembly-CSharp::ModelPartDataSO
   id: Fibularis_longus_muscle.L
-  partName: Fibularis_longus_muscle.L
-  descriptionChunks: []
+  partName: Fibularis longus muscle Left
+  descriptionChunks:
+  - The fibularis longus muscles are located along the lateral aspect of the canine
+    crus, originating from the proximal fibula and lateral tibia. Running distally,
+    they insert onto the tarsal and metatarsal bones via a long tendon crossing the
+    plantar surface.
+  - ' These muscles contribute to hock stabilization, tarsal eversion, and digit
+    support during locomotion. They assist in weight distribution and balance during
+    standing and movement. Injury or weakness can impair lateral stability and overall
+    hindlimb function.'
